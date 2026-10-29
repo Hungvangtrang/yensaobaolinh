@@ -1,0 +1,2606 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yến Sào Bảo Linh | Tinh Hoa Khánh Hòa • Khởi Dựng 2017 - Anh Hùng Huvatra</title>
+  <meta name="description" content="Yến Sào Bảo Linh khởi dựng năm 2017 tại Bắc Cam Ranh, Khánh Hòa bởi Anh Hùng. Hệ trần gỗ Meranti Malaysia chuẩn vi khí hậu, nhặt lông thủ công 100%, sấy lạnh tiệt trùng giữ trọn 18 axit amin. Cam kết bồi thường 200%." />
+  <link rel="canonical" href="https://yensaobaolinh.life/" />
+  <link rel="icon" type="image/jpeg" href="https://yensaobaolinh.life/Logo%20%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg" />
+
+  <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            royal: {
+              red: '#7A1215',
+              crimson: '#9E1B20',
+              deep: '#4D090B',
+              darkBg: '#130708',
+              darkCard: '#1F0C0E',
+              gold: '#D4AF37',
+              goldLight: '#F3E5AB',
+              goldDark: '#AA8215',
+              cream: '#FDFBF7',
+              sand: '#F5EFE2'
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+          },
+          boxShadow: {
+            'royal': '0 18px 45px -12px rgba(122, 18, 21, 0.18)',
+            'gold': '0 10px 30px -5px rgba(212, 175, 55, 0.35)',
+            'gold-sm': '0 4px 15px -2px rgba(212, 175, 55, 0.25)'
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* Thiết lập biến màu và hiệu ứng Hoàng Gia */
+    :root {
+      --gold-gradient: linear-gradient(135deg, #D4AF37 0%, #F7E9A0 50%, #B88714 100%);
+      --red-gradient: linear-gradient(135deg, #8F1519 0%, #6A0E11 55%, #460709 100%);
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, .font-royal {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .bg-gold-gradient {
+      background: var(--gold-gradient);
+    }
+
+    .bg-red-gradient {
+      background: var(--red-gradient);
+    }
+
+    .text-gold-gradient {
+      background: linear-gradient(135deg, #D4AF37 0%, #FFF1B8 48%, #C6931B 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .text-gold-gradient-dark {
+      background: linear-gradient(135deg, #9A6F0B 0%, #D4AF37 50%, #8C6207 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Hoạ tiết nền Hoàng Gia tinh tế */
+    .royal-pattern {
+      background-image: radial-gradient(rgba(212, 175, 55, 0.14) 1px, transparent 1px),
+                        radial-gradient(rgba(122, 18, 21, 0.06) 1px, transparent 1px);
+      background-size: 32px 32px;
+      background-position: 0 0, 16px 16px;
+    }
+
+    /* Hiệu ứng nổi nhẹ cho thẻ */
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    .animate-float {
+      animation: floatSlow 4.5s ease-in-out infinite;
+    }
+    .animate-float-delayed {
+      animation: floatSlow 5s ease-in-out 1.5s infinite;
+    }
+
+    /* Hiệu ứng vòng sóng cho nút Hotline / Zalo */
+    @keyframes pulseRing {
+      0% { transform: scale(0.95); opacity: 0.8; }
+      70% { transform: scale(1.35); opacity: 0; }
+      100% { transform: scale(1.35); opacity: 0; }
+    }
+    .pulse-ring::before {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      border-radius: 9999px;
+      background: inherit;
+      z-index: -1;
+      animation: pulseRing 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+    }
+
+    /* Tùy chỉnh thanh cuộn */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #F5EFE2;
+    }
+    .dark ::-webkit-scrollbar-track {
+      background: #130708;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #B88714;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #7A1215;
+    }
+  </style>
+</head>
+<body class="bg-royal-cream text-stone-800 dark:bg-royal-darkBg dark:text-stone-100 transition-colors duration-300 selection:bg-royal-red selection:text-royal-goldLight">
+
+  <!-- ==========================================
+       1. TOPBAR HOÀNG GIA
+  =========================================== -->
+  <div class="bg-royal-deep text-royal-goldLight border-b border-royal-gold/30 text-xs sm:text-sm py-2 px-4">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex flex-wrap items-center gap-3 sm:gap-5">
+        <span class="inline-flex items-center gap-1.5 font-semibold tracking-wider text-royal-gold">
+          ✦ RA ĐỜI NĂM 2017 • TRẦN GỖ MERANTI CHUẨN VI KHÍ HẬU
+        </span>
+        <div class="hidden lg:flex items-center gap-1.5 text-stone-200">
+          <span>📍</span>
+          <span>164 Nguyễn Công Trứ, Bắc Cam Ranh, Khánh Hòa</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-4 sm:gap-6 ml-auto">
+        <div class="flex items-center gap-1.5">
+          <span>📞</span>
+          <span>Hotline / Zalo: <a href="tel:0974002626" class="font-bold text-royal-gold hover:underline">0974 002 626</a></span>
+        </div>
+        <div class="hidden sm:flex items-center gap-1.5 text-stone-300">
+          <span>🏷️</span>
+          <a href="#bang-gia-si" class="hover:text-royal-gold underline font-medium">Chiết khấu sỉ 8% (Từ 10 hộp)</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       2. STICKY HEADER (ĐẦU TRANG DÍNH)
+  =========================================== -->
+  <header id="main-header" class="sticky top-0 z-40 bg-royal-cream/95 dark:bg-royal-darkCard/95 backdrop-blur-md border-b border-royal-gold/30 shadow-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-3">
+      
+      <!-- Logo & Tên Thương Hiệu -->
+      <a href="#trang-chu" title="Yến Sào Bảo Linh" class="flex items-center gap-3 group shrink-0">
+        <div class="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full p-0.5 bg-gold-gradient shadow-gold-sm overflow-hidden shrink-0">
+          <img
+            src="https://yensaobaolinh.life/Logo%20%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg"
+            data-local="Logo  Yến Sào Bảo Linh.jpg"
+            alt="Logo Yến Sào Bảo Linh"
+            onerror="handleImgError(this, 'logo')"
+            class="w-full h-full object-cover rounded-full bg-royal-red"
+          />
+        </div>
+        <div>
+          <div class="font-royal font-extrabold text-lg sm:text-xl tracking-wide leading-tight">
+            <span class="text-royal-red dark:text-royal-gold">YẾN SÀO</span>
+            <span class="text-gold-gradient-dark dark:text-royal-goldLight"> BẢO LINH</span>
+          </div>
+          <div class="text-[11px] sm:text-xs font-medium text-stone-600 dark:text-stone-300 flex items-center gap-1.5 mt-0.5">
+            <span>Tinh Hoa Khánh Hòa</span>
+            <span class="text-royal-gold">•</span>
+            <span class="text-royal-red dark:text-royal-gold font-semibold">Khởi Dựng 2017</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Thanh Điều Hướng Desktop -->
+      <nav class="hidden xl:flex items-center gap-1 2xl:gap-1.5 text-sm font-semibold">
+        <a href="#trang-chu" class="px-3 py-2 rounded-xl hover:bg-royal-red/10 dark:hover:bg-royal-gold/15 hover:text-royal-red dark:hover:text-royal-gold transition">
+          <span>Trang Chủ</span>
+        </a>
+        <a href="#gioi-thieu" class="px-3 py-2 rounded-xl hover:bg-royal-red/10 dark:hover:bg-royal-gold/15 hover:text-royal-red dark:hover:text-royal-gold transition">
+          <span>Nhà Yến</span> <span>Meranti</span>
+        </a>
+        <a href="#san-pham" class="px-3 py-2 rounded-xl hover:bg-royal-red/10 dark:hover:bg-royal-gold/15 hover:text-royal-red dark:hover:text-royal-gold transition">
+          <span>Sản Phẩm</span>
+        </a>
+        <a href="#bang-gia-si" class="px-3 py-2 rounded-xl bg-royal-gold/15 text-royal-red dark:text-royal-gold border border-royal-gold/40 hover:bg-royal-gold/25 transition">
+          <span>Bảng Giá Sỉ</span> <span>(CK 8%)</span>
+        </a>
+        <a href="#video-tour" class="px-3 py-2 rounded-xl hover:bg-royal-red/10 dark:hover:bg-royal-gold/15 hover:text-royal-red dark:hover:text-royal-gold transition">
+          <span>Video</span> <span>Thực Tế</span>
+        </a>
+        <a href="#quy-trinh" class="px-3 py-2 rounded-xl hover:bg-royal-red/10 dark:hover:bg-royal-gold/15 hover:text-royal-red dark:hover:text-royal-gold transition">
+          <span>Quy Trình</span>
+        </a>
+        <a href="#huong-dan" class="px-3 py-2 rounded-xl hover:bg-royal-red/10 dark:hover:bg-royal-gold/15 hover:text-royal-red dark:hover:text-royal-gold transition">
+          <span>Chưng Yến</span>
+        </a>
+        <a href="#lien-he" class="px-3 py-2 rounded-xl hover:bg-royal-red/10 dark:hover:bg-royal-gold/15 hover:text-royal-red dark:hover:text-royal-gold transition">
+          <span>Liên Hệ</span>
+        </a>
+      </nav>
+
+      <!-- Cụm Nút Tương Tác Phải -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        <!-- Nút Chuyển Đổi Giao Diện Sáng / Tối -->
+        <button
+          id="theme-toggle"
+          type="button"
+          aria-label="Chuyển đổi giao diện Sáng/Tối"
+          title="Đổi giao diện Sáng / Tối"
+          class="w-10 h-10 rounded-full border border-royal-gold/40 bg-royal-sand/70 dark:bg-royal-deep flex items-center justify-center text-royal-red dark:text-royal-gold hover:scale-105 transition shadow-sm"
+        >
+          <span id="theme-icon" class="text-base">🌙</span>
+        </button>
+
+        <!-- Nút Giỏ Hàng -->
+        <button
+          id="open-cart-btn"
+          type="button"
+          aria-label="Mở giỏ hàng"
+          class="relative flex items-center gap-2 px-3.5 py-2 rounded-full border border-royal-gold/50 bg-white dark:bg-royal-deep text-royal-red dark:text-royal-goldLight font-semibold text-sm hover:border-royal-gold transition shadow-sm"
+        >
+          <span>🛒</span>
+          <span class="hidden sm:inline">Giỏ Hàng</span>
+          <span id="cart-count-badge" class="w-5 h-5 rounded-full bg-royal-red dark:bg-royal-gold text-white dark:text-royal-deep text-xs font-extrabold flex items-center justify-center">
+            0
+          </span>
+        </button>
+
+        <!-- Nút Gọi Hotline Nhanh -->
+        <a
+          href="tel:0974002626"
+          class="hidden md:inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-red-gradient text-royal-goldLight font-bold text-sm border border-royal-gold/50 shadow-royal hover:brightness-110 transition"
+        >
+          <span>📞</span>
+          <span>0974 002 626</span>
+        </a>
+
+        <!-- Nút Menu Di Động -->
+        <button
+          id="mobile-menu-btn"
+          type="button"
+          aria-label="Mở menu điều hướng"
+          class="xl:hidden w-10 h-10 rounded-xl border border-royal-gold/40 flex items-center justify-center text-royal-red dark:text-royal-gold text-xl"
+        >
+          ☰
+        </button>
+      </div>
+    </div>
+
+    <!-- Menu Di Động Thu Gọn -->
+    <div id="mobile-menu" class="hidden xl:hidden border-t border-royal-gold/20 bg-royal-cream dark:bg-royal-darkCard px-4 pt-3 pb-5 space-y-2 shadow-xl">
+      <div class="grid grid-cols-2 gap-2 text-sm font-semibold">
+        <a href="#trang-chu" class="mobile-nav-link px-3 py-2.5 rounded-xl bg-royal-sand/60 dark:bg-royal-deep/60">🏠 Trang Chủ</a>
+        <a href="#gioi-thieu" class="mobile-nav-link px-3 py-2.5 rounded-xl bg-royal-sand/60 dark:bg-royal-deep/60">👨‍🌾 Nhà Yến Gỗ Meranti</a>
+        <a href="#san-pham" class="mobile-nav-link px-3 py-2.5 rounded-xl bg-royal-sand/60 dark:bg-royal-deep/60">🎁 Sản Phẩm Thượng Phẩm</a>
+        <a href="#bang-gia-si" class="mobile-nav-link px-3 py-2.5 rounded-xl bg-royal-gold/20 text-royal-red dark:text-royal-gold border border-royal-gold/40">📋 Bảng Giá Chiết Khấu Sỉ</a>
+        <a href="#video-tour" class="mobile-nav-link px-3 py-2.5 rounded-xl bg-royal-sand/60 dark:bg-royal-deep/60">🎬 Video Thực Tế</a>
+        <a href="#quy-trinh" class="mobile-nav-link px-3 py-2.5 rounded-xl bg-royal-sand/60 dark:bg-royal-deep/60">🛡️ Quy Trình 5 Bước</a>
+        <a href="#huong-dan" class="mobile-nav-link px-3 py-2.5 rounded-xl bg-royal-sand/60 dark:bg-royal-deep/60">🥣 Bí Quyết Chưng Yến</a>
+        <a href="#lien-he" class="mobile-nav-link px-3 py-2.5 rounded-xl bg-royal-sand/60 dark:bg-royal-deep/60">📍 Bản Đồ &amp; Liên Hệ</a>
+      </div>
+      <div class="pt-2 flex gap-2">
+        <a href="tel:0974002626" class="flex-1 py-2.5 rounded-xl bg-red-gradient text-royal-goldLight font-bold text-center text-sm">📞 Gọi: 0974 002 626</a>
+        <a href="https://zalo.me/0974002626" target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 rounded-xl bg-gold-gradient text-royal-deep font-bold text-center text-sm">💬 Chat Zalo Ngay</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       3. HERO SECTION (#trang-chu)
+  =========================================== -->
+  <section id="trang-chu" class="relative bg-red-gradient text-white py-14 sm:py-20 lg:py-24 overflow-hidden">
+    <!-- Hoạ tiết ánh sáng nền Hoàng Kim -->
+    <div class="absolute inset-0 opacity-15 pointer-events-none" style="background-image: radial-gradient(#D4AF37 1.25px, transparent 1.25px); background-size: 28px 28px;"></div>
+    <div class="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-royal-gold/20 blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-24 -right-24 w-96 h-96 rounded-full bg-royal-gold/15 blur-3xl pointer-events-none"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+      
+      <!-- Cột Trái: Thông Điệp Thương Hiệu -->
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-royal-gold/15 border border-royal-gold/50 text-royal-goldLight text-xs sm:text-sm font-bold tracking-wider uppercase shadow-gold-sm">
+          ✦ KHỞI DỰNG TỪ NĂM 2017 • HỆ TRẦN GỖ MERANTI CHUẨN VI KHÍ HẬU
+        </div>
+
+        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
+          Tinh Hoa Yến Sào <br />
+          <span class="text-gold-gradient">Khánh Hòa Thuần Khiết</span>
+        </h1>
+
+        <div class="space-y-3 text-stone-100/95 text-sm sm:text-base leading-relaxed bg-black/20 p-5 rounded-2xl border border-royal-gold/25 backdrop-blur-sm">
+          <div class="flex items-start gap-2.5">
+            <span class="text-royal-gold font-bold mt-0.5">✓</span>
+            <span>Thu hoạch nhân đạo trực tiếp từ hệ thống nhà yến trần <strong class="text-royal-goldLight">gỗ Meranti đỏ Malaysia</strong> tại Cam Ranh của <strong class="text-royal-goldLight">Anh Hùng</strong>.</span>
+          </div>
+          <div class="flex items-start gap-2.5">
+            <span class="text-royal-gold font-bold mt-0.5">✓</span>
+            <span>Bảo toàn 100% sợi yến già đanh chắc, không mùi tạp gỗ, dai ngon và đậm đặc vi chất tự nhiên.</span>
+          </div>
+          <div class="flex items-start gap-2.5">
+            <span class="text-royal-gold font-bold mt-0.5">✓</span>
+            <span>Giá niêm yết minh bạch: <strong class="text-royal-goldLight">Yến Tinh 4.900.000₫/100gr</strong> • <strong class="text-royal-goldLight">Yến Thô 3.000.000₫/100gr</strong> (Chiết khấu sỉ 8% từ 10 hộp).</span>
+          </div>
+          <div class="flex items-start gap-2.5 pt-1 text-royal-goldLight font-semibold">
+            <span>✦ Cam kết bồi thường 200% nếu Quý khách phát hiện hàng giả, hàng kém chất lượng.</span>
+          </div>
+        </div>
+
+        <!-- Nút CTA -->
+        <div class="flex flex-wrap items-center gap-3.5 pt-2">
+          <a
+            href="#san-pham"
+            class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full bg-gold-gradient text-royal-deep font-extrabold text-sm sm:text-base shadow-gold hover:scale-[1.02] active:scale-95 transition"
+          >
+            <span>✨</span> Xem Sản Phẩm &amp; Đặt Lẻ
+          </a>
+          <a
+            href="#bang-gia-si"
+            class="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-white/15 hover:bg-white/25 text-royal-goldLight border border-royal-gold/60 font-bold text-sm sm:text-base backdrop-blur-sm transition"
+          >
+            <span>📋</span> Bảng Giá Chiết Khấu Sỉ (CK 8%)
+          </a>
+          <a
+            href="https://zalo.me/0974002626"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-black/25 hover:bg-black/40 text-white border border-royal-gold/40 font-bold text-sm sm:text-base backdrop-blur-sm transition"
+          >
+            <span>💬</span> Tư Vấn Zalo Trực Tiếp
+          </a>
+        </div>
+
+        <!-- 3 Chỉ Số Bảo Chứng -->
+        <div class="grid grid-cols-3 gap-3 sm:gap-5 pt-4 border-t border-royal-gold/30">
+          <div class="bg-black/20 rounded-2xl p-3.5 border border-royal-gold/20">
+            <h3 class="text-2xl sm:text-3xl font-extrabold text-royal-gold">2017</h3>
+            <p class="text-xs sm:text-sm text-stone-200 mt-1 leading-snug">Năm thành lập nhà yến<br /><span class="text-stone-300/80">Uy tín gốc Khánh Hòa</span></p>
+          </div>
+          <div class="bg-black/20 rounded-2xl p-3.5 border border-royal-gold/20">
+            <h3 class="text-2xl sm:text-3xl font-extrabold text-royal-gold">Meranti</h3>
+            <p class="text-xs sm:text-sm text-stone-200 mt-1 leading-snug">Trần gỗ Meranti nhập khẩu<br /><span class="text-stone-300/80">Tổ yến sạch, đanh già</span></p>
+          </div>
+          <div class="bg-black/20 rounded-2xl p-3.5 border border-royal-gold/20">
+            <h3 class="text-2xl sm:text-3xl font-extrabold text-royal-gold">200%</h3>
+            <p class="text-xs sm:text-sm text-stone-200 mt-1 leading-snug">Bồi thường trách nhiệm<br /><span class="text-stone-300/80">Bảo chứng chất lượng vàng</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cột Phải: Khung Ảnh Sản Phẩm Chủ Đạo & Thẻ Nổi -->
+      <div class="lg:col-span-5">
+        <div class="relative mx-auto max-w-md lg:max-w-none">
+          <!-- Viền Hoàng Kim Trang Trí -->
+          <div class="rounded-3xl p-2 bg-gold-gradient shadow-gold">
+            <div class="relative rounded-2xl overflow-hidden bg-royal-deep aspect-[4/4.3]">
+              <img
+                src="https://yensaobaolinh.life/Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg"
+                data-local="Yến Sào Bảo Linh.jpg"
+                alt="Sản phẩm Yến Sào Bảo Linh"
+                onerror="handleImgError(this, 'hero')"
+                class="w-full h-full object-cover hover:scale-105 transition duration-700"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-transparent"></div>
+              <div class="absolute bottom-4 left-4 right-4 text-center">
+                <span class="inline-block px-3 py-1 rounded-full bg-royal-red/90 border border-royal-gold/60 text-royal-goldLight text-xs font-semibold">
+                  ✦ Tinh Hoa Yến Sào Bắc Cam Ranh - Khánh Hòa
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Thẻ Nổi 1: Trần Gỗ Meranti Malaysia -->
+          <div class="animate-float absolute -top-5 -left-3 sm:-left-6 bg-white/95 dark:bg-royal-darkCard/95 text-stone-900 dark:text-stone-100 px-4 py-3 rounded-2xl shadow-xl border border-royal-gold/60 flex items-center gap-3 max-w-[270px]">
+            <span class="w-10 h-10 rounded-xl bg-royal-red/10 dark:bg-royal-gold/20 flex items-center justify-center text-xl shrink-0">🪵</span>
+            <div class="text-xs leading-tight">
+              <strong class="block text-royal-red dark:text-royal-gold font-bold text-sm">Trần Gỗ Meranti Malaysia</strong>
+              <span class="text-stone-600 dark:text-stone-300">Không mùi tạp • Tổ yến sạch sâu</span>
+            </div>
+          </div>
+
+          <!-- Thẻ Nổi 2: Sấy Lạnh Tiệt Trùng -->
+          <div class="animate-float-delayed absolute -bottom-5 -right-3 sm:-right-6 bg-white/95 dark:bg-royal-darkCard/95 text-stone-900 dark:text-stone-100 px-4 py-3 rounded-2xl shadow-xl border border-royal-gold/60 flex items-center gap-3 max-w-[270px]">
+            <span class="w-10 h-10 rounded-xl bg-royal-gold/20 flex items-center justify-center text-xl shrink-0">⭐</span>
+            <div class="text-xs leading-tight">
+              <strong class="block text-royal-red dark:text-royal-gold font-bold text-sm">Sấy Lạnh Tiệt Trùng</strong>
+              <span class="text-stone-600 dark:text-stone-300">Giữ trọn 18 Axit Amin quý</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4. THANH 4 CAM KẾT VÀNG (TRUST BADGES)
+  =========================================== -->
+  <section class="relative z-10 -mt-8 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+      
+      <div class="bg-white dark:bg-royal-darkCard rounded-2xl p-5 border border-royal-gold/40 shadow-royal flex items-start gap-4 hover:-translate-y-1 transition duration-300">
+        <div class="w-12 h-12 rounded-2xl bg-royal-red/10 dark:bg-royal-gold/15 border border-royal-gold/40 flex items-center justify-center text-2xl shrink-0">
+          🪵
+        </div>
+        <div>
+          <h4 class="font-royal font-bold text-base sm:text-lg text-royal-red dark:text-royal-gold">Nhà Nuôi Gỗ Meranti 2017</h4>
+          <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-1">Thu hoạch tận gốc trên thanh gỗ Meranti</p>
+          <p class="text-xs text-stone-500 dark:text-stone-400">Tổ đanh chắc, bụng mỏng, không ẩm mốc</p>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-royal-darkCard rounded-2xl p-5 border border-royal-gold/40 shadow-royal flex items-start gap-4 hover:-translate-y-1 transition duration-300">
+        <div class="w-12 h-12 rounded-2xl bg-royal-red/10 dark:bg-royal-gold/15 border border-royal-gold/40 flex items-center justify-center text-2xl shrink-0">
+          🌿
+        </div>
+        <div>
+          <h4 class="font-royal font-bold text-base sm:text-lg text-royal-red dark:text-royal-gold">Nhặt Lông Thủ Công</h4>
+          <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-1">100% bằng nguồn nước lọc tinh khiết</p>
+          <p class="text-xs text-stone-500 dark:text-stone-400">Tuyệt đối không hóa chất tẩy rửa</p>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-royal-darkCard rounded-2xl p-5 border border-royal-gold/40 shadow-royal flex items-start gap-4 hover:-translate-y-1 transition duration-300">
+        <div class="w-12 h-12 rounded-2xl bg-royal-red/10 dark:bg-royal-gold/15 border border-royal-gold/40 flex items-center justify-center text-2xl shrink-0">
+          🏷️
+        </div>
+        <div>
+          <h4 class="font-royal font-bold text-base sm:text-lg text-royal-red dark:text-royal-gold">Giá Sỉ Chiết Khấu 8%</h4>
+          <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-1">Ưu đãi sỉ từ 10 hộp (100gr/hộp)</p>
+          <p class="text-xs text-stone-500 dark:text-stone-400">Giao hàng tận nơi Khánh Hòa &amp; TP.HCM</p>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-royal-darkCard rounded-2xl p-5 border border-royal-gold/40 shadow-royal flex items-start gap-4 hover:-translate-y-1 transition duration-300">
+        <div class="w-12 h-12 rounded-2xl bg-royal-red/10 dark:bg-royal-gold/15 border border-royal-gold/40 flex items-center justify-center text-2xl shrink-0">
+          🎁
+        </div>
+        <div>
+          <h4 class="font-royal font-bold text-base sm:text-lg text-royal-red dark:text-royal-gold">Tặng Trọn Bộ Nguyên Liệu</h4>
+          <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-1">Đường phèn Quảng Ngãi, táo đỏ, hạt sen</p>
+          <p class="text-xs text-stone-500 dark:text-stone-400">Thố sứ cao cấp và cẩm nang chưng yến</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       5. GIỚI THIỆU NHÀ YẾN ANH HÙNG & GỖ MERANTI (#gioi-thieu)
+  =========================================== -->
+  <section id="gioi-thieu" class="py-16 sm:py-24 royal-pattern">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+      
+      <!-- Khung Ảnh Đôi Nhà Sáng Lập & Khai Thác Thực Tế -->
+      <div class="lg:col-span-6 relative">
+        <div class="grid grid-cols-12 gap-4 items-center">
+          <div class="col-span-7 rounded-3xl p-1.5 bg-gold-gradient shadow-royal">
+            <img
+              src="https://yensaobaolinh.life/Anh%20H%C3%B9ng%20Huvatra%20Ch%E1%BB%A7%20Nh%C3%A0%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20%20Linh.jpg"
+              data-local="Anh Hùng Huvatra Chủ Nhà Yến Sào Bảo  Linh.jpg"
+              alt="Anh Hùng - Chủ Nhà Yến Sào Bảo Linh"
+              onerror="handleImgError(this, 'founder')"
+              class="w-full h-80 sm:h-96 object-cover rounded-2xl cursor-pointer"
+              onclick="openLightboxDirect(this.src, 'Anh Hùng - Chủ Sáng Lập & Quản Lý Hệ Thống Nhà Yến Sào Bảo Linh (Từ 2017)')"
+            />
+          </div>
+          <div class="col-span-5 rounded-3xl p-1.5 bg-gold-gradient shadow-royal mt-12">
+            <img
+              src="https://yensaobaolinh.life/Khai%20th%C3%A1c%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg"
+              data-local="Khai thác Yến Sào Bảo Linh.jpg"
+              alt="Khai thác Yến Sào Bảo Linh trên trần gỗ Meranti"
+              onerror="handleImgError(this, 'harvest')"
+              class="w-full h-64 sm:h-80 object-cover rounded-2xl cursor-pointer"
+              onclick="openLightboxDirect(this.src, 'Thu hoạch tổ yến già nguyên chất trên thanh gỗ Meranti tại nhà yến Bảo Linh - Cam Ranh')"
+            />
+          </div>
+        </div>
+
+        <!-- Huy Hiệu 2017 Khởi Dựng -->
+        <div class="absolute top-1/2 left-[54%] -translate-x-1/2 -translate-y-1/2 w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-red-gradient border-4 border-royal-gold shadow-gold flex flex-col items-center justify-center text-center text-white">
+          <span class="font-royal font-extrabold text-xl sm:text-2xl text-royal-gold leading-none">2017</span>
+          <span class="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-royal-goldLight mt-1">Gỗ Meranti</span>
+        </div>
+      </div>
+
+      <!-- Nội Dung Tâm Huyết & Sứ Mệnh -->
+      <div class="lg:col-span-6 space-y-6">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-royal-red/10 dark:bg-royal-gold/15 border border-royal-gold/40 text-royal-red dark:text-royal-gold text-xs sm:text-sm font-bold uppercase tracking-wider">
+          ✦ Tâm Huyết Người Sáng Lập &amp; Kỹ Thuật Trần Gỗ Meranti
+        </div>
+
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-royal-red dark:text-royal-goldLight leading-tight">
+          Hành Trình Gìn Giữ Tinh Hoa Yến Sào Cùng Anh Hùng
+        </h2>
+
+        <div class="space-y-3.5 text-sm sm:text-base text-stone-700 dark:text-stone-200 leading-relaxed">
+          <div class="flex items-start gap-3">
+            <span class="text-royal-gold font-bold text-lg leading-none mt-0.5">✦</span>
+            <span>Ra đời từ năm <strong>2017</strong> tại Cam Ranh - cái nôi trù phú của yến sào thiên nhiên Khánh Hòa, với văn phòng giao dịch sỉ &amp; lẻ kết nối trực tiếp tại <strong>Vinhomes Central Park, TP.HCM</strong>.</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-royal-gold font-bold text-lg leading-none mt-0.5">✦</span>
+            <span>Do <strong>Anh Hùng</strong> trực tiếp gây dựng, đầu tư đồng bộ hệ thống thanh làm tổ bằng <strong>gỗ Meranti đỏ Malaysia sấy khô chuyên dụng</strong> — loại gỗ danh tiếng trong ngành nhà yến giúp chống ẩm mốc tuyệt đối, không tiết nhựa hay mùi lạ, giữ cho chân yến và sợi yến trắng ngà tinh khiết.</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-royal-gold font-bold text-lg leading-none mt-0.5">✦</span>
+            <span>Tôn trọng tự nhiên với nguyên tắc thu hoạch nhân đạo: Chỉ thu hái trên trần <strong>gỗ Meranti</strong> khi chim con đã trưởng thành và tự bay đi.</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-royal-gold font-bold text-lg leading-none mt-0.5">✦</span>
+            <span>Sơ chế khép kín bằng nước tinh khiết RO, sấy lạnh tiệt trùng tia UV, bảo toàn trọn vẹn 18 axit amin quý giá.</span>
+          </div>
+        </div>
+
+        <!-- Trích Dẫn Tâm Huyết -->
+        <div class="p-5 rounded-2xl bg-royal-sand/80 dark:bg-royal-darkCard border-l-4 border-royal-red dark:border-royal-gold space-y-1.5 shadow-sm">
+          <div class="font-royal italic font-bold text-base sm:text-lg text-royal-red dark:text-royal-gold">
+            "Đầu tư trần gỗ Meranti chuẩn mực ngay từ ngày đầu năm 2017 là cách chúng tôi bảo vệ sự thuần khiết của từng tai yến."
+          </div>
+          <div class="text-xs sm:text-sm text-stone-600 dark:text-stone-300">
+            Từng hộp yến 100gr của Bảo Linh đến tay khách lẻ hay đại lý sỉ đều đạt độ khô chuẩn, sợi nở dày và thơm thanh tự nhiên.
+          </div>
+        </div>
+
+        <!-- Thẻ Chữ Ký Anh Hùng -->
+        <div class="flex items-center gap-4 p-4 rounded-2xl bg-white dark:bg-royal-darkCard border border-royal-gold/40 shadow-royal">
+          <img
+            src="https://yensaobaolinh.life/Anh%20H%C3%B9ng%20Huvatra%20Ch%E1%BB%A7%20Nh%C3%A0%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20%20Linh.jpg"
+            data-local="Anh Hùng Huvatra Chủ Nhà Yến Sào Bảo  Linh.jpg"
+            alt="Anh Hùng"
+            onerror="handleImgError(this, 'founder')"
+            class="w-16 h-16 rounded-full object-cover border-2 border-royal-gold shrink-0"
+          />
+          <div>
+            <h4 class="font-royal font-bold text-lg text-royal-red dark:text-royal-gold">Anh Hùng</h4>
+            <div class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-snug">
+              Chủ Sáng Lập &amp; Quản Lý Hệ Thống Nhà Yến Bảo Linh (Từ 2017)<br />
+              Hotline / Zalo tư vấn sỉ &amp; lẻ: <a href="tel:0974002626" class="font-bold text-royal-red dark:text-royal-gold hover:underline">0974 002 626</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       6. BỘ SƯU TẬP SẢN PHẨM (#san-pham)
+  =========================================== -->
+  <section id="san-pham" class="py-16 sm:py-24 bg-royal-sand/50 dark:bg-royal-darkCard/50 border-y border-royal-gold/25">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      
+      <!-- Tiêu Đề Khu Vực -->
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-royal-red/10 dark:bg-royal-gold/15 border border-royal-gold/40 text-royal-red dark:text-royal-gold text-xs sm:text-sm font-bold uppercase tracking-wider">
+          ✦ Bộ Sưu Tập Yến Sào Thượng Phẩm • Giá Niêm Yết Chính Thức
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-royal-red dark:text-royal-goldLight">
+          Sản Phẩm Yến Sào Bảo Linh
+        </h2>
+        <div class="text-sm sm:text-base text-stone-600 dark:text-stone-300 space-y-1">
+          <div>Tuyển chọn từ những tổ yến già đanh chắc làm tổ trên hệ trần <strong>gỗ Meranti</strong> tại nhà yến Cam Ranh.</div>
+          <div>Quy cách hộp tiêu chuẩn <strong>100gr</strong> (có chia gói 50gr dùng thử) • Tự động áp dụng <strong>Chiết khấu sỉ 8%</strong> khi đặt từ 10 hộp 100gr.</div>
+        </div>
+      </div>
+
+      <!-- Bộ Lọc Danh Mục -->
+      <div id="product-filters" class="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
+        <button data-filter="all" class="filter-btn active px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition bg-red-gradient text-royal-goldLight border border-royal-gold shadow-royal">
+          Tất Cả Thượng Phẩm
+        </button>
+        <button data-filter="tinh-che" class="filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition bg-white dark:bg-royal-darkCard text-stone-700 dark:text-stone-200 border border-royal-gold/40 hover:border-royal-gold">
+          Yến Tinh (4.900.000₫)
+        </button>
+        <button data-filter="yen-tho" class="filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition bg-white dark:bg-royal-darkCard text-stone-700 dark:text-stone-200 border border-royal-gold/40 hover:border-royal-gold">
+          Yến Thô (3.000.000₫)
+        </button>
+        <button data-filter="rut-long" class="filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition bg-white dark:bg-royal-darkCard text-stone-700 dark:text-stone-200 border border-royal-gold/40 hover:border-royal-gold">
+          Yến Rút Lông
+        </button>
+        <button data-filter="qua-bieu" class="filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition bg-white dark:bg-royal-darkCard text-stone-700 dark:text-stone-200 border border-royal-gold/40 hover:border-royal-gold">
+          Quà Biếu Hoàng Kim
+        </button>
+        <button data-filter="chan-yen" class="filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition bg-white dark:bg-royal-darkCard text-stone-700 dark:text-stone-200 border border-royal-gold/40 hover:border-royal-gold">
+          Chân Yến &amp; Yến Viên
+        </button>
+      </div>
+
+      <!-- Lưới Sản Phẩm Động -->
+      <div id="product-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <!-- Được tạo tự động từ dữ liệu chuẩn bằng JavaScript -->
+      </div>
+
+      <!-- ==========================================
+           6B. BẢNG GIÁ CHIẾT KHẤU SỈ & LẺ CHÍNH THỨC (#bang-gia-si)
+      =========================================== -->
+      <div id="bang-gia-si" class="pt-8 scroll-mt-24">
+        <div class="bg-white dark:bg-royal-darkCard rounded-3xl border-2 border-royal-gold shadow-royal overflow-hidden">
+          
+          <!-- Đầu Bảng Báo Giá (Mô phỏng trang trọng văn bản gốc) -->
+          <div class="bg-red-gradient text-white p-6 sm:p-8 border-b-2 border-royal-gold">
+            <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+              <div class="flex items-start sm:items-center gap-4">
+                <img
+                  src="https://yensaobaolinh.life/Logo%20%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg"
+                  data-local="Logo  Yến Sào Bảo Linh.jpg"
+                  alt="Logo Yến Sào Nha Trang Bảo Linh"
+                  onerror="handleImgError(this, 'logo')"
+                  class="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover border-2 border-royal-gold shadow-gold shrink-0"
+                />
+                <div class="space-y-1">
+                  <div class="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-royal-gold/20 border border-royal-gold/50 text-royal-goldLight text-[11px] font-bold uppercase tracking-wider">
+                    ✦ Niêm Yết Chính Thức Từ 01/11/2017
+                  </div>
+                  <h3 class="font-royal font-extrabold text-xl sm:text-2xl text-royal-gold">
+                    YẾN SÀO NHA TRANG BẢO LINH
+                  </h3>
+                  <p class="text-xs sm:text-sm text-stone-200 leading-relaxed">
+                    <strong>Nhà yến gốc:</strong> 164 Nguyễn Công Trứ, Bắc Cam Ranh, Tỉnh Khánh Hòa<br />
+                    <strong>Địa chỉ giao dịch TP.HCM:</strong> Tòa Park 1.08.16 Khu đô thị Vinhomes Central Park, 208 Nguyễn Hữu Cảnh, P. 22, Quận Bình Thạnh, TP. HCM<br />
+                    <strong>Hotline / Zalo đặt hàng:</strong> <a href="tel:0974002626" class="text-royal-gold font-bold underline">0974 002 626</a> (Anh Hùng) • <strong>Tel VP:</strong> <a href="tel:0979104039" class="text-royal-goldLight hover:underline">0979 104 039</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="lg:text-right bg-black/25 p-4 rounded-2xl border border-royal-gold/40 shrink-0">
+                <div class="font-royal font-extrabold text-2xl sm:text-3xl text-royal-gold tracking-wide">
+                  BẢNG GIÁ CHIẾT KHẤU
+                </div>
+                <div class="text-xs sm:text-sm italic text-royal-goldLight mt-0.5">
+                  (Áp dụng cho khách hàng lẻ &amp; đại lý sỉ toàn quốc / TP.HCM)
+                </div>
+                <div class="text-xs text-stone-300 mt-1.5">
+                  Đơn vị tính: <strong>Đồng (VNĐ)</strong> • Quy cách: <strong>100gr / Hộp</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nội Dung Bảng Giá & Công Cụ Tính Chiết Khấu Sỉ -->
+          <div class="p-6 sm:p-8 space-y-8">
+            
+            <!-- Bảng Niêm Yết Chuẩn -->
+            <div class="overflow-x-auto rounded-2xl border border-royal-gold/50 shadow-sm">
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr class="bg-royal-sand dark:bg-royal-deep text-royal-red dark:text-royal-gold border-b border-royal-gold/40 text-xs sm:text-sm uppercase">
+                    <th class="py-4 px-4 sm:px-6 font-extrabold border-r border-royal-gold/30">Tên sản phẩm (Hộp 100gr)</th>
+                    <th class="py-4 px-4 sm:px-6 font-extrabold text-center border-r border-royal-gold/30">Giá bán lẻ<br /><span class="text-[11px] font-medium normal-case text-stone-600 dark:text-stone-300">(1 - 9 hộp 100gr)</span></th>
+                    <th class="py-4 px-4 sm:px-6 font-extrabold text-center bg-royal-gold/15 border-r border-royal-gold/30">
+                      Giá bán sỉ (CK 8%)<br />
+                      <span class="text-[11px] font-bold normal-case text-royal-red dark:text-royal-goldLight">Số lượng đặt mua: 10 &le; X &lt; 20 hộp</span>
+                    </th>
+                    <th class="py-4 px-4 sm:px-6 font-extrabold text-center border-r border-royal-gold/30">Ghi chú &amp; Tiết kiệm</th>
+                    <th class="py-4 px-4 sm:px-6 font-extrabold text-center">Đặt nhanh</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-royal-gold/30 text-sm">
+                  <!-- Dòng 1: Yến tinh -->
+                  <tr class="hover:bg-royal-sand/40 dark:hover:bg-royal-deep/40 transition">
+                    <td class="py-4 px-4 sm:px-6 font-bold text-stone-900 dark:text-white border-r border-royal-gold/30">
+                      <div class="font-royal text-base sm:text-lg text-royal-red dark:text-royal-gold">Yến tinh (Yến Tinh Chế Thượng Hạng)</div>
+                      <div class="text-xs font-normal text-stone-500 dark:text-stone-400 mt-0.5">Nhặt sạch lông 100%, sấy lạnh tiệt trùng (Có gói 50gr: 2.450.000 ₫)</div>
+                    </td>
+                    <td class="py-4 px-4 sm:px-6 text-center font-extrabold text-base sm:text-lg text-stone-800 dark:text-stone-100 border-r border-royal-gold/30">
+                      4.900.000 ₫
+                    </td>
+                    <td class="py-4 px-4 sm:px-6 text-center bg-royal-gold/10 border-r border-royal-gold/30">
+                      <span class="font-royal font-extrabold text-lg sm:text-xl text-royal-red dark:text-royal-gold">4.500.000 ₫</span>
+                      <span class="block text-[11px] font-bold text-emerald-700 dark:text-emerald-400">Đã giảm 400.000 ₫ / hộp</span>
+                    </td>
+                    <td class="py-4 px-4 sm:px-6 text-center text-xs sm:text-sm text-stone-600 dark:text-stone-300 border-r border-royal-gold/30">
+                      Tiết kiệm ngay <strong class="text-royal-red dark:text-royal-gold">4.000.000 ₫</strong><br />khi đặt sỉ 10 hộp 100gr
+                    </td>
+                    <td class="py-4 px-4 sm:px-6 text-center">
+                      <div class="flex flex-col sm:flex-row items-center justify-center gap-2">
+                        <button
+                          type="button"
+                          onclick="addToCart('tinh-che-vip', '100g')"
+                          class="px-3 py-2 rounded-xl bg-royal-sand dark:bg-royal-deep text-royal-red dark:text-royal-gold font-bold text-xs border border-royal-gold/40 hover:border-royal-gold transition"
+                        >
+                          +1 Hộp Lẻ
+                        </button>
+                        <button
+                          type="button"
+                          onclick="addWholesaleToCart('tinh-che-vip', 10)"
+                          class="px-3.5 py-2 rounded-xl bg-red-gradient text-royal-goldLight font-bold text-xs border border-royal-gold shadow-sm hover:brightness-110 transition"
+                        >
+                          ⚡ Đặt Sỉ 10 Hộp
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <!-- Dòng 2: Yến thô -->
+                  <tr class="hover:bg-royal-sand/40 dark:hover:bg-royal-deep/40 transition">
+                    <td class="py-4 px-4 sm:px-6 font-bold text-stone-900 dark:text-white border-r border-royal-gold/30">
+                      <div class="font-royal text-base sm:text-lg text-royal-red dark:text-royal-gold">Yến thô (Tổ Yến Thô Nguyên Tổ)</div>
+                      <div class="text-xs font-normal text-stone-500 dark:text-stone-400 mt-0.5">Khai thác trên trần gỗ Meranti, tổ già đanh ít lông (Có gói 50gr: 1.500.000 ₫)</div>
+                    </td>
+                    <td class="py-4 px-4 sm:px-6 text-center font-extrabold text-base sm:text-lg text-stone-800 dark:text-stone-100 border-r border-royal-gold/30">
+                      3.000.000 ₫
+                    </td>
+                    <td class="py-4 px-4 sm:px-6 text-center bg-royal-gold/10 border-r border-royal-gold/30">
+                      <span class="font-royal font-extrabold text-lg sm:text-xl text-royal-red dark:text-royal-gold">2.760.000 ₫</span>
+                      <span class="block text-[11px] font-bold text-emerald-700 dark:text-emerald-400">Đã giảm 240.000 ₫ / hộp</span>
+                    </td>
+                    <td class="py-4 px-4 sm:px-6 text-center text-xs sm:text-sm text-stone-600 dark:text-stone-300 border-r border-royal-gold/30">
+                      Tiết kiệm ngay <strong class="text-royal-red dark:text-royal-gold">2.400.000 ₫</strong><br />khi đặt sỉ 10 hộp 100gr
+                    </td>
+                    <td class="py-4 px-4 sm:px-6 text-center">
+                      <div class="flex flex-col sm:flex-row items-center justify-center gap-2">
+                        <button
+                          type="button"
+                          onclick="addToCart('yen-tho-nguyen-to', '100g')"
+                          class="px-3 py-2 rounded-xl bg-royal-sand dark:bg-royal-deep text-royal-red dark:text-royal-gold font-bold text-xs border border-royal-gold/40 hover:border-royal-gold transition"
+                        >
+                          +1 Hộp Lẻ
+                        </button>
+                        <button
+                          type="button"
+                          onclick="addWholesaleToCart('yen-tho-nguyen-to', 10)"
+                          class="px-3.5 py-2 rounded-xl bg-red-gradient text-royal-goldLight font-bold text-xs border border-royal-gold shadow-sm hover:brightness-110 transition"
+                        >
+                          ⚡ Đặt Sỉ 10 Hộp
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Khu Vực 2 Cột: Ghi Chú Chính Thức & Bộ Tính Nhẩm Đơn Sỉ Nhanh -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+              
+              <!-- Cột Trái: 5 Ghi Chú Báo Giá Nguyên Bản -->
+              <div class="lg:col-span-6 bg-royal-sand/60 dark:bg-royal-deep/60 rounded-2xl p-5 sm:p-6 border border-royal-gold/40 flex flex-col justify-between space-y-4">
+                <div class="space-y-3">
+                  <h4 class="font-royal font-extrabold text-lg text-royal-red dark:text-royal-gold underline decoration-royal-gold underline-offset-4">
+                    Ghi chú báo giá chính thức:
+                  </h4>
+                  <ul class="space-y-2.5 text-xs sm:text-sm text-stone-700 dark:text-stone-200">
+                    <li class="flex items-start gap-2.5">
+                      <span class="text-royal-red dark:text-royal-gold font-bold">➢</span>
+                      <span>Đơn giá trên <strong>chưa bao gồm thuế VAT 10%</strong>.</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                      <span class="text-royal-red dark:text-royal-gold font-bold">➢</span>
+                      <span>Khối lượng tiêu chuẩn <strong>1 hộp là 100gr</strong> (tặng kèm bộ nguyên liệu chưng cao cấp).</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                      <span class="text-royal-red dark:text-royal-gold font-bold">➢</span>
+                      <span><strong>Thời gian giao hàng:</strong> trong vòng 7 ngày kể từ ngày xác nhận đơn đặt hàng (Giao nhanh 2h-24h tại Khánh Hòa &amp; TP.HCM).</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                      <span class="text-royal-red dark:text-royal-gold font-bold">➢</span>
+                      <span><strong>Điều kiện thanh toán:</strong> tiền mặt hoặc chuyển khoản ngay tại thời điểm nhận đủ hàng và đồng kiểm chất lượng.</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                      <span class="text-royal-red dark:text-royal-gold font-bold">➢</span>
+                      <span>Bảng báo giá chiết khấu sỉ này có giá trị áp dụng trong vòng <strong>30 ngày</strong> (Đối với đơn hàng từ 20 hộp trở lên, vui lòng liên hệ trực tiếp Anh Hùng để nhận mức chiết khấu đại lý cấp 1).</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="pt-3 border-t border-royal-gold/30 flex items-center justify-between text-xs sm:text-sm">
+                  <span class="font-royal italic font-bold text-royal-red dark:text-royal-gold">Yến sào Bảo Linh – Kính gửi !</span>
+                  <a href="https://zalo.me/0974002626" target="_blank" rel="noopener noreferrer" class="font-bold text-royal-red dark:text-royal-gold hover:underline">
+                    💬 Nhận Báo Giá PDF Qua Zalo ↗
+                  </a>
+                </div>
+              </div>
+
+              <!-- Cột Phải: Bộ Tính Nhẩm Đơn Hàng Sỉ & VAT Tự Động -->
+              <div class="lg:col-span-6 bg-red-gradient text-white rounded-2xl p-5 sm:p-6 border border-royal-gold shadow-gold space-y-4">
+                <div class="flex items-center justify-between gap-2">
+                  <h4 class="font-royal font-extrabold text-lg sm:text-xl text-royal-gold">
+                    🧮 Công Cụ Tính Nhẩm Đơn Hàng Sỉ &amp; Lẻ
+                  </h4>
+                  <span class="px-2.5 py-0.5 rounded-full bg-royal-gold/20 border border-royal-gold/50 text-royal-goldLight text-[11px] font-bold">
+                    Tự động CK 8% từ 10 hộp
+                  </span>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+                  <div class="bg-black/25 p-3.5 rounded-xl border border-royal-gold/30">
+                    <label for="ws-qty-tinh" class="block text-xs font-bold text-royal-goldLight mb-1">
+                      Số hộp Yến tinh (100gr):
+                    </label>
+                    <div class="flex items-center gap-2">
+                      <input
+                        id="ws-qty-tinh"
+                        type="number"
+                        min="0"
+                        max="500"
+                        value="10"
+                        class="w-full px-3 py-2 rounded-lg bg-white text-stone-900 font-extrabold text-sm focus:outline-none"
+                      />
+                      <span class="text-xs text-stone-300 shrink-0">hộp</span>
+                    </div>
+                    <div id="ws-unit-tinh" class="text-[11px] text-royal-gold mt-1.5 font-semibold">
+                      Đơn giá sỉ: 4.500.000 ₫/hộp
+                    </div>
+                  </div>
+
+                  <div class="bg-black/25 p-3.5 rounded-xl border border-royal-gold/30">
+                    <label for="ws-qty-tho" class="block text-xs font-bold text-royal-goldLight mb-1">
+                      Số hộp Yến thô (100gr):
+                    </label>
+                    <div class="flex items-center gap-2">
+                      <input
+                        id="ws-qty-tho"
+                        type="number"
+                        min="0"
+                        max="500"
+                        value="0"
+                        class="w-full px-3 py-2 rounded-lg bg-white text-stone-900 font-extrabold text-sm focus:outline-none"
+                      />
+                      <span class="text-xs text-stone-300 shrink-0">hộp</span>
+                    </div>
+                    <div id="ws-unit-tho" class="text-[11px] text-royal-gold mt-1.5 font-semibold">
+                      Đơn giá lẻ: 3.000.000 ₫/hộp
+                    </div>
+                  </div>
+                </div>
+
+                <label class="flex items-center gap-2.5 text-xs sm:text-sm text-stone-200 cursor-pointer select-none">
+                  <input id="ws-include-vat" type="checkbox" class="w-4 h-4 accent-royal-gold rounded" />
+                  <span>Tính thêm <strong>Thuế VAT 10%</strong> (Xuất hóa đơn GTGT theo yêu cầu)</span>
+                </label>
+
+                <div id="ws-calc-summary" class="bg-black/35 rounded-xl p-4 border border-royal-gold/40 space-y-2 text-xs sm:text-sm">
+                  <!-- Render tự động qua JS -->
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-2.5">
+                  <button
+                    id="ws-add-cart-btn"
+                    type="button"
+                    class="flex-1 py-3 px-4 rounded-xl bg-gold-gradient text-royal-deep font-extrabold text-xs sm:text-sm shadow-gold-sm hover:brightness-105 transition"
+                  >
+                    🛒 Thêm Đơn Hàng Này Vào Giỏ
+                  </button>
+                  <button
+                    id="ws-zalo-quote-btn"
+                    type="button"
+                    class="py-3 px-4 rounded-xl bg-white/15 hover:bg-white/25 text-white font-bold text-xs sm:text-sm border border-royal-gold/40 transition"
+                  >
+                    💬 Gửi Báo Giá Qua Zalo
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       7A. TƯ LIỆU VIDEO THỰC TẾ (#video-tour)
+  =========================================== -->
+  <section id="video-tour" class="py-16 sm:py-24 bg-red-gradient text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 relative z-10">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-royal-gold/20 border border-royal-gold/50 text-royal-goldLight text-xs sm:text-sm font-bold uppercase tracking-wider">
+          🎬 Tư Liệu Video Thực Tế
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-royal-goldLight">
+          Khám Phá Toàn Cảnh Nhà Yến Bảo Linh
+        </h2>
+        <div class="text-sm sm:text-base text-stone-200 space-y-1">
+          <div>Ghi hình chân thực đàn chim yến về làm tổ trên hệ trần <strong>gỗ Meranti đỏ Malaysia</strong>.</div>
+          <div>Quy trình chuyên gia kiểm tra sức khỏe đàn chim và kiểm định chất lượng tổ yến.</div>
+        </div>
+      </div>
+
+      <!-- Danh Sách Video Thực Tế -->
+      <div id="video-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+        <!-- Render bằng JavaScript -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       7B. HÌNH ẢNH HOẠT ĐỘNG THỰC TẾ (GALLERY)
+  =========================================== -->
+  <section class="py-16 sm:py-24 royal-pattern">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-royal-red/10 dark:bg-royal-gold/15 border border-royal-gold/40 text-royal-red dark:text-royal-gold text-xs sm:text-sm font-bold uppercase tracking-wider">
+          📸 Hình Ảnh Hoạt Động Thực Tế
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-royal-red dark:text-royal-goldLight">
+          Từ Trần Gỗ Meranti Nhà Nuôi Đến Tay Khách Hàng
+        </h2>
+        <div class="text-sm sm:text-base text-stone-600 dark:text-stone-300 space-y-1">
+          <div>Từng công đoạn khai thác trên thanh gỗ Meranti, phân loại, nhặt lông tỉ mỉ và đóng hộp 100gr.</div>
+          <div>Nhấp vào từng bức ảnh để phóng to và xem thông tin chi tiết.</div>
+        </div>
+      </div>
+
+      <!-- Lưới Gallery -->
+      <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Render bằng JavaScript -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       8. QUY TRÌNH KHÉP KÍN 5 BƯỚC (#quy-trinh)
+  =========================================== -->
+  <section id="quy-trinh" class="py-16 sm:py-24 bg-royal-sand/60 dark:bg-royal-darkCard/60 border-y border-royal-gold/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-royal-red/10 dark:bg-royal-gold/15 border border-royal-gold/40 text-royal-red dark:text-royal-gold text-xs sm:text-sm font-bold uppercase tracking-wider">
+          🛡️ Tiêu Chuẩn Vệ Sinh An Toàn
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-royal-red dark:text-royal-goldLight">
+          Quy Trình Khép Kín 5 Bước Tận Gốc
+        </h2>
+        <div class="text-sm sm:text-base text-stone-600 dark:text-stone-300">
+          Chuẩn hóa từ hệ thống trần gỗ Meranti năm 2017 đến khâu đóng gói trao gửi khách hàng.
+        </div>
+      </div>
+
+      <!-- 5 Bước Quy Trình -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
+        
+        <div class="relative bg-white dark:bg-royal-darkCard rounded-3xl p-6 border border-royal-gold/40 shadow-royal text-center flex flex-col items-center hover:-translate-y-1.5 transition duration-300">
+          <div class="w-8 h-8 rounded-full bg-red-gradient text-royal-goldLight font-extrabold text-sm flex items-center justify-center border border-royal-gold mb-3">1</div>
+          <div class="text-4xl mb-3">🪵</div>
+          <h4 class="font-royal font-bold text-lg text-royal-red dark:text-royal-gold mb-2">Trần Gỗ Meranti Chuẩn</h4>
+          <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300">Nhà yến lắp đặt trần gỗ Meranti Malaysia chống mốc</p>
+          <p class="text-xs text-stone-500 dark:text-stone-400 mt-1">Nhiệt độ 27-29°C, độ ẩm 80-85% hoàn hảo</p>
+        </div>
+
+        <div class="relative bg-white dark:bg-royal-darkCard rounded-3xl p-6 border border-royal-gold/40 shadow-royal text-center flex flex-col items-center hover:-translate-y-1.5 transition duration-300">
+          <div class="w-8 h-8 rounded-full bg-red-gradient text-royal-goldLight font-extrabold text-sm flex items-center justify-center border border-royal-gold mb-3">2</div>
+          <div class="text-4xl mb-3">🕊️</div>
+          <h4 class="font-royal font-bold text-lg text-royal-red dark:text-royal-gold mb-2">Thu Hoạch Nhân Đạo</h4>
+          <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300">Chỉ thu hái khi chim con đã lớn bay đi</p>
+          <p class="text-xs text-stone-500 dark:text-stone-400 mt-1">Tổ già đanh trên thớ gỗ Meranti sạch</p>
+        </div>
+
+        <div class="relative bg-white dark:bg-royal-darkCard rounded-3xl p-6 border border-royal-gold/40 shadow-royal text-center flex flex-col items-center hover:-translate-y-1.5 transition duration-300">
+          <div class="w-8 h-8 rounded-full bg-red-gradient text-royal-goldLight font-extrabold text-sm flex items-center justify-center border border-royal-gold mb-3">3</div>
+          <div class="text-4xl mb-3">💧</div>
+          <h4 class="font-royal font-bold text-lg text-royal-red dark:text-royal-gold mb-2">Làm Sạch Bằng Nước Lọc RO</h4>
+          <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300">Thợ thủ công nhặt từng sợi lông tơ tỉ mỉ</p>
+          <p class="text-xs text-stone-500 dark:text-stone-400 mt-1">100% nước tinh khiết, không chất tẩy trắng</p>
+        </div>
+
+        <div class="relative bg-white dark:bg-royal-darkCard rounded-3xl p-6 border border-royal-gold/40 shadow-royal text-center flex flex-col items-center hover:-translate-y-1.5 transition duration-300">
+          <div class="w-8 h-8 rounded-full bg-red-gradient text-royal-goldLight font-extrabold text-sm flex items-center justify-center border border-royal-gold mb-3">4</div>
+          <div class="text-4xl mb-3">❄️</div>
+          <h4 class="font-royal font-bold text-lg text-royal-red dark:text-royal-gold mb-2">Sấy Lạnh Tiệt Trùng</h4>
+          <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300">Công nghệ sấy lạnh tiệt trùng khép kín</p>
+          <p class="text-xs text-stone-500 dark:text-stone-400 mt-1">Bảo toàn nguyên vẹn 18 axit amin và khoáng chất</p>
+        </div>
+
+        <div class="relative bg-white dark:bg-royal-darkCard rounded-3xl p-6 border border-royal-gold/40 shadow-royal text-center flex flex-col items-center hover:-translate-y-1.5 transition duration-300">
+          <div class="w-8 h-8 rounded-full bg-red-gradient text-royal-goldLight font-extrabold text-sm flex items-center justify-center border border-royal-gold mb-3">5</div>
+          <div class="text-4xl mb-3">🎁</div>
+          <h4 class="font-royal font-bold text-lg text-royal-red dark:text-royal-gold mb-2">Đóng Hộp 100gr Hoàng Gia</h4>
+          <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300">Định lượng chuẩn 100gr/hộp sang trọng</p>
+          <p class="text-xs text-stone-500 dark:text-stone-400 mt-1">Dán tem niêm phong bảo chứng nguồn gốc</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       9. BÍ QUYẾT CHƯNG YẾN & BỘ TÍNH TOÁN (#huong-dan)
+  =========================================== -->
+  <section id="huong-dan" class="py-16 sm:py-24 royal-pattern">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-royal-red/10 dark:bg-royal-gold/15 border border-royal-gold/40 text-royal-red dark:text-royal-gold text-xs sm:text-sm font-bold uppercase tracking-wider">
+          🥣 Cẩm Nang Sức Khỏe Khoa Học
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-royal-red dark:text-royal-goldLight">
+          Bí Quyết Chưng Yến &amp; Liều Lượng Khoa Học
+        </h2>
+        <div class="text-sm sm:text-base text-stone-600 dark:text-stone-300">
+          Chưng đúng phương pháp giúp giữ trọn vẹn hương vị thanh mát và dưỡng chất quý giá.
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
+        
+        <!-- Cột Trái: 4 Bước Chưng Yến Chuẩn Khoa Học -->
+        <div class="lg:col-span-6 space-y-4">
+          
+          <div class="bg-white dark:bg-royal-darkCard rounded-2xl p-5 border border-royal-gold/40 shadow-royal flex items-start gap-4">
+            <div class="w-11 h-11 rounded-2xl bg-red-gradient text-royal-goldLight font-royal font-extrabold text-lg flex items-center justify-center border border-royal-gold shrink-0">
+              1
+            </div>
+            <div>
+              <h4 class="font-royal font-bold text-lg text-royal-red dark:text-royal-gold">Ngâm Tổ Yến Trong Nước Tinh Khiết</h4>
+              <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-1">Ngâm nước sạch nhiệt độ phòng từ 20 - 30 phút cho sợi tơi mềm đều.</p>
+              <p class="text-xs font-semibold text-royal-red dark:text-royal-goldLight mt-1">✦ Tuyệt đối không ngâm bằng nước nóng vì sẽ làm mất vi chất.</p>
+            </div>
+          </div>
+
+          <div class="bg-white dark:bg-royal-darkCard rounded-2xl p-5 border border-royal-gold/40 shadow-royal flex items-start gap-4">
+            <div class="w-11 h-11 rounded-2xl bg-red-gradient text-royal-goldLight font-royal font-extrabold text-lg flex items-center justify-center border border-royal-gold shrink-0">
+              2
+            </div>
+            <div>
+              <h4 class="font-royal font-bold text-lg text-royal-red dark:text-royal-gold">Cho Yến Vào Thố Sứ &amp; Đổ Nước</h4>
+              <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-1">Vớt yến để ráo nước, cho vào thố sứ có nắp đậy.</p>
+              <p class="text-xs text-stone-500 dark:text-stone-400 mt-1">Đổ nước tinh khiết ngập khoảng 3/4 thố để tránh bị trào khi yến nở.</p>
+            </div>
+          </div>
+
+          <div class="bg-white dark:bg-royal-darkCard rounded-2xl p-5 border border-royal-gold/40 shadow-royal flex items-start gap-4">
+            <div class="w-11 h-11 rounded-2xl bg-red-gradient text-royal-goldLight font-royal font-extrabold text-lg flex items-center justify-center border border-royal-gold shrink-0">
+              3
+            </div>
+            <div>
+              <h4 class="font-royal font-bold text-lg text-royal-red dark:text-royal-gold">Chưng Cách Thủy Lửa Nhỏ (20 - 25 Phút)</h4>
+              <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-1">Đặt thố vào nồi chưng cách thủy, đậy vung kín.</p>
+              <p class="text-xs text-stone-500 dark:text-stone-400 mt-1">Đun sôi nước rồi hạ lửa nhỏ liu riu cho sợi yến chín mềm trong suốt.</p>
+            </div>
+          </div>
+
+          <div class="bg-white dark:bg-royal-darkCard rounded-2xl p-5 border border-royal-gold/40 shadow-royal flex items-start gap-4">
+            <div class="w-11 h-11 rounded-2xl bg-red-gradient text-royal-goldLight font-royal font-extrabold text-lg flex items-center justify-center border border-royal-gold shrink-0">
+              4
+            </div>
+            <div>
+              <h4 class="font-royal font-bold text-lg text-royal-red dark:text-royal-gold">Thêm Đường Phèn, Táo Đỏ &amp; Gừng Tươi</h4>
+              <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-1">Trước khi tắt bếp 5 phút, cho đường phèn tán nhuyễn, táo đỏ và vài lát gừng mỏng.</p>
+              <p class="text-xs font-semibold text-royal-red dark:text-royal-goldLight mt-1">✦ Dùng vào buổi sáng sớm lúc đói hoặc buổi tối trước khi đi ngủ 1 tiếng.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Cột Phải: Bộ Tính Toán Liều Lượng Yến Dùng -->
+        <div class="lg:col-span-6 bg-red-gradient text-white rounded-3xl p-6 sm:p-8 border-2 border-royal-gold shadow-gold space-y-6">
+          <div class="space-y-2">
+            <h3 class="text-xl sm:text-2xl font-extrabold text-royal-gold">
+              ✦ BỘ TÍNH TOÁN LIỀU LƯỢNG YẾN DÙNG
+            </h3>
+            <p class="text-xs sm:text-sm text-stone-200 leading-relaxed">
+              Chọn đối tượng sử dụng để hệ thống tính toán lượng yến cần chuẩn bị và thời gian bồi bổ khoa học nhất:
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="calc-user" class="block text-xs font-bold uppercase tracking-wider text-royal-goldLight mb-2">
+                1. Đối tượng sử dụng:
+              </label>
+              <select
+                id="calc-user"
+                class="w-full px-4 py-3 rounded-xl bg-black/35 border border-royal-gold/50 text-white text-sm font-medium focus:outline-none focus:border-royal-gold"
+              >
+                <option value="adult" class="text-stone-900">Người lớn / Người làm việc căng thẳng</option>
+                <option value="elderly" class="text-stone-900">Người cao tuổi / Người mới ốm dậy</option>
+                <option value="child-small" class="text-stone-900">Trẻ nhỏ từ 1 - 3 tuổi</option>
+                <option value="child-big" class="text-stone-900">Trẻ em từ 4 - 10 tuổi</option>
+                <option value="pregnant" class="text-stone-900">Phụ nữ mang thai (từ tháng thứ 4)</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="calc-weeks" class="block text-xs font-bold uppercase tracking-wider text-royal-goldLight mb-2">
+                2. Thời gian liệu trình:
+              </label>
+              <select
+                id="calc-weeks"
+                class="w-full px-4 py-3 rounded-xl bg-black/35 border border-royal-gold/50 text-white text-sm font-medium focus:outline-none focus:border-royal-gold"
+              >
+                <option value="4" class="text-stone-900">1 Tháng (4 tuần) - Trải nghiệm phục hồi</option>
+                <option value="8" class="text-stone-900">2 Tháng (8 tuần) - Bồi bổ chuyên sâu</option>
+                <option value="12" class="text-stone-900">3 Tháng (12 tuần) - Liệu trình toàn diện</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Kết Quả Tính Toán Tự Động -->
+          <div id="calc-result" class="bg-black/30 rounded-2xl p-5 border border-royal-gold/40 space-y-4">
+            <!-- Được cập nhật tự động qua JS -->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       10. BẢN ĐỒ & LIÊN HỆ (#lien-he)
+  =========================================== -->
+  <section id="lien-he" class="py-16 sm:py-24 bg-royal-sand/70 dark:bg-royal-darkCard/60 border-t border-royal-gold/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-royal-red/10 dark:bg-royal-gold/15 border border-royal-gold/40 text-royal-red dark:text-royal-gold text-xs sm:text-sm font-bold uppercase tracking-wider">
+          📍 Hệ Thống Cơ Sở Khánh Hòa &amp; Giao Dịch TP.HCM
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-royal-red dark:text-royal-goldLight">
+          Ghé Thăm Cơ Sở Yến Sào Bảo Linh
+        </h2>
+        <div class="text-sm sm:text-base text-stone-600 dark:text-stone-300">
+          Đón tiếp Quý khách tham quan nhà yến trần gỗ Meranti tại Cam Ranh và giao dịch sỉ/lẻ tại TP. Hồ Chí Minh.
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+        
+        <!-- Cột Trái: Thông Tin Liên Hệ Chính Thức -->
+        <div class="lg:col-span-5 bg-white dark:bg-royal-darkCard rounded-3xl p-6 sm:p-8 border border-royal-gold/40 shadow-royal flex flex-col justify-between space-y-6">
+          <div class="space-y-5">
+            <div>
+              <h3 class="text-2xl font-extrabold text-royal-red dark:text-royal-gold">CƠ SỞ YẾN SÀO BẢO LINH</h3>
+              <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-1.5 leading-relaxed">
+                Khởi dựng từ năm <strong>2017</strong> bởi <strong>Anh Hùng</strong>.<br />
+                Trọn vẹn uy tín và trách nhiệm trên từng tai yến chuẩn gốc Khánh Hòa.
+              </p>
+            </div>
+
+            <div class="space-y-4 pt-2 border-t border-royal-gold/25 text-sm">
+              <div class="flex items-start gap-3.5">
+                <div class="w-10 h-10 rounded-xl bg-royal-red/10 dark:bg-royal-gold/15 flex items-center justify-center text-lg shrink-0">🏰</div>
+                <div>
+                  <strong class="block text-stone-900 dark:text-royal-goldLight">Trụ sở &amp; Nhà yến gốc Khánh Hòa:</strong>
+                  <p class="text-stone-600 dark:text-stone-300">164 Nguyễn Công Trứ, Bắc Cam Ranh, Tỉnh Khánh Hòa</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3.5">
+                <div class="w-10 h-10 rounded-xl bg-royal-red/10 dark:bg-royal-gold/15 flex items-center justify-center text-lg shrink-0">🏢</div>
+                <div>
+                  <strong class="block text-stone-900 dark:text-royal-goldLight">Địa chỉ giao dịch Sỉ &amp; Lẻ TP.HCM:</strong>
+                  <p class="text-stone-600 dark:text-stone-300">Tòa Park 1.08.16 Khu đô thị Vinhomes Central Park, 208 Nguyễn Hữu Cảnh, P. 22, Quận Bình Thạnh, TP. HCM</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3.5">
+                <div class="w-10 h-10 rounded-xl bg-royal-red/10 dark:bg-royal-gold/15 flex items-center justify-center text-lg shrink-0">📞</div>
+                <div>
+                  <strong class="block text-stone-900 dark:text-royal-goldLight">Hotline &amp; Zalo tư vấn đặt hàng (Anh Hùng):</strong>
+                  <p class="mt-0.5 flex flex-wrap items-center gap-3">
+                    <a href="tel:0974002626" class="text-xl font-extrabold text-royal-red dark:text-royal-gold hover:underline">
+                      0974 002 626
+                    </a>
+                    <span class="text-xs text-stone-500 dark:text-stone-400">• ĐT Giao dịch: <a href="tel:0979104039" class="underline font-semibold">0979 104 039</a></span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3.5">
+                <div class="w-10 h-10 rounded-xl bg-royal-red/10 dark:bg-royal-gold/15 flex items-center justify-center text-lg shrink-0">⏰</div>
+                <div>
+                  <strong class="block text-stone-900 dark:text-royal-goldLight">Thời gian đón tiếp &amp; Giao hàng:</strong>
+                  <p class="text-stone-600 dark:text-stone-300">Mở cửa 07:00 - 21:30 • Giao hàng toàn quốc, nhận đủ hàng kiểm tra mới thanh toán.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-3 pt-4">
+            <a
+              href="tel:0974002626"
+              class="flex-1 py-3.5 px-4 rounded-2xl bg-red-gradient text-royal-goldLight font-bold text-sm text-center shadow-royal hover:brightness-110 transition"
+            >
+              <span>📞</span> Gọi Hotline 0974 002 626
+            </a>
+            <a
+              href="https://maps.app.goo.gl/ZVeX6JNn2JimF6246"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex-1 py-3.5 px-4 rounded-2xl bg-gold-gradient text-royal-deep font-bold text-sm text-center shadow-gold-sm hover:brightness-105 transition"
+            >
+              <span>🗺️</span> Chỉ Đường Trên Google Maps
+            </a>
+          </div>
+        </div>
+
+        <!-- Cột Phải: Bản Đồ Google Maps Trực Quan -->
+        <div class="lg:col-span-7 bg-white dark:bg-royal-darkCard rounded-3xl p-3 border border-royal-gold/40 shadow-royal flex flex-col justify-between min-h-[400px]">
+          <div class="relative w-full h-full min-h-[340px] rounded-2xl overflow-hidden bg-stone-200 dark:bg-stone-800">
+            <iframe
+              title="Bản đồ Yến Sào Bảo Linh - 164 Nguyễn Công Trứ, Bắc Cam Ranh, Khánh Hòa"
+              src="https://www.google.com/maps?q=164+Nguy%E1%BB%85n+C%C3%B4ng+Tr%E1%BB%A9,+Cam+Ranh,+Kh%C3%A1nh+H%C3%B2a&output=embed"
+              class="w-full h-full border-0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="flex flex-wrap items-center justify-between gap-2 px-3 pt-3 pb-1 text-xs sm:text-sm">
+            <span class="font-semibold text-stone-700 dark:text-stone-200">📍 164 Nguyễn Công Trứ, Bắc Cam Ranh, Tỉnh Khánh Hòa</span>
+            <a
+              href="https://maps.app.goo.gl/ZVeX6JNn2JimF6246"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-bold text-royal-red dark:text-royal-gold hover:underline"
+            >
+              Mở Ứng Dụng Google Maps ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       11. CHÂN TRANG (FOOTER)
+  =========================================== -->
+  <footer class="bg-royal-deep text-stone-200 border-t-2 border-royal-gold pt-14 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-royal-gold/25">
+      
+      <!-- Cột 1: Thương Hiệu -->
+      <div class="lg:col-span-4 space-y-4">
+        <div class="flex items-center gap-3">
+          <img
+            src="https://yensaobaolinh.life/Logo%20%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg"
+            data-local="Logo  Yến Sào Bảo Linh.jpg"
+            alt="Logo Yến Sào Bảo Linh"
+            onerror="handleImgError(this, 'logo')"
+            class="w-14 h-14 rounded-full object-cover border-2 border-royal-gold"
+          />
+          <div>
+            <div class="font-royal font-extrabold text-xl text-royal-gold">
+              <span>YẾN SÀO</span> <span>BẢO LINH</span>
+            </div>
+            <div class="text-xs text-royal-goldLight">
+              <span>Tinh Hoa Khánh Hòa</span> <span>•</span> <span>Khởi Dựng 2017</span>
+            </div>
+          </div>
+        </div>
+        <div class="text-xs sm:text-sm text-stone-300 space-y-1.5 leading-relaxed">
+          <div>Yến Sào Nha Trang Bảo Linh thành lập năm 2017 bởi Anh Hùng.</div>
+          <div>Hệ thống nhà nuôi lắp đặt trần <strong>gỗ Meranti đỏ Malaysia</strong> chuẩn vi khí hậu tại Cam Ranh.</div>
+          <div>Cung cấp sỉ &amp; lẻ toàn quốc với mức chiết khấu 8% hấp dẫn từ 10 hộp 100gr.</div>
+        </div>
+        <div class="inline-block px-3.5 py-2 rounded-xl bg-royal-gold/15 border border-royal-gold/40 text-royal-goldLight text-xs font-bold">
+          ✦ Cam kết hoàn tiền 200% nếu phát hiện yến pha tạp chất
+        </div>
+      </div>
+
+      <!-- Cột 2: Liên Kết Nhanh -->
+      <div class="lg:col-span-2 space-y-3">
+        <h4 class="font-royal font-bold text-lg text-royal-gold">Liên Kết Nhanh</h4>
+        <div class="flex flex-col space-y-2 text-xs sm:text-sm text-stone-300">
+          <a href="#trang-chu" class="hover:text-royal-gold transition">Trang Chủ</a>
+          <a href="#gioi-thieu" class="hover:text-royal-gold transition">Nhà Yến Gỗ Meranti</a>
+          <a href="#san-pham" class="hover:text-royal-gold transition">Sản Phẩm Thượng Phẩm</a>
+          <a href="#bang-gia-si" class="hover:text-royal-gold transition text-royal-goldLight font-semibold">Bảng Giá Chiết Khấu Sỉ</a>
+          <a href="#video-tour" class="hover:text-royal-gold transition">Video Thực Tế</a>
+          <a href="#quy-trinh" class="hover:text-royal-gold transition">Quy Trình 5 Bước</a>
+          <a href="#huong-dan" class="hover:text-royal-gold transition">Bí Quyết Chưng Yến</a>
+        </div>
+      </div>
+
+      <!-- Cột 3: Bảng Giá Niêm Yết (100gr) -->
+      <div class="lg:col-span-3 space-y-3">
+        <h4 class="font-royal font-bold text-lg text-royal-gold">Giá Niêm Yết (Hộp 100gr)</h4>
+        <div class="flex flex-col space-y-2.5 text-xs sm:text-sm text-stone-300">
+          <a href="#san-pham" onclick="filterProductsByCategory('tinh-che')" class="hover:text-royal-gold transition">
+            • <strong>Yến Tinh Chế:</strong> Lẻ 4.900.000₫ <br />
+            <span class="text-royal-goldLight text-xs pl-2">(Sỉ từ 10 hộp CK 8%: 4.500.000₫)</span>
+          </a>
+          <a href="#san-pham" onclick="filterProductsByCategory('yen-tho')" class="hover:text-royal-gold transition">
+            • <strong>Yến Thô Nguyên Tổ:</strong> Lẻ 3.000.000₫ <br />
+            <span class="text-royal-goldLight text-xs pl-2">(Sỉ từ 10 hộp CK 8%: 2.760.000₫)</span>
+          </a>
+          <a href="#san-pham" onclick="filterProductsByCategory('rut-long')" class="hover:text-royal-gold transition">
+            • <strong>Yến Rút Lông Xuất Khẩu:</strong> 5.200.000₫
+          </a>
+          <a href="#san-pham" onclick="filterProductsByCategory('qua-bieu')" class="hover:text-royal-gold transition">
+            • <strong>Hộp Quà Biếu Hoàng Kim:</strong> 5.000.000₫
+          </a>
+        </div>
+      </div>
+
+      <!-- Cột 4: Thông Tin Liên Hệ -->
+      <div class="lg:col-span-3 space-y-3">
+        <h4 class="font-royal font-bold text-lg text-royal-gold">Thông Tin Liên Hệ</h4>
+        <div class="space-y-2.5 text-xs sm:text-sm text-stone-300">
+          <div class="flex items-start gap-2">
+            <span>📍</span>
+            <span><strong>Khánh Hòa:</strong> 164 Nguyễn Công Trứ, Bắc Cam Ranh, Tỉnh Khánh Hòa</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span>🏢</span>
+            <span><strong>TP.HCM:</strong> Tòa Park 1.08.16 Vinhomes Central Park, 208 Nguyễn Hữu Cảnh, P.22, Q. Bình Thạnh</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span>📞</span>
+            <span>Hotline &amp; Zalo: <a href="tel:0974002626" class="text-royal-gold font-bold hover:underline">0974 002 626</a></span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span>🌐</span>
+            <span>Website chính thức: <strong class="text-white">yensaobaolinh.life</strong></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-stone-400">
+      <div>
+        © 2017 - 2026 <strong class="text-royal-goldLight">Yến Sào Bảo Linh</strong> (yensaobaolinh.life). Bảo lưu mọi quyền.
+      </div>
+      <div>
+        Hotline/Zalo chính thức: <strong class="text-royal-gold">0974 002 626</strong> • Khánh Hòa &amp; TP.HCM
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       12. DRAWER GIỎ HÀNG TRƯỢT NGANG (TỰ ĐỘNG GIÁ SỈ)
+  =========================================== -->
+  <div id="cart-overlay" class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 hidden"></div>
+  <aside
+    id="cart-drawer"
+    aria-label="Giỏ hàng"
+    class="fixed top-0 right-0 h-full w-full max-w-md bg-royal-cream dark:bg-royal-darkCard text-stone-800 dark:text-stone-100 z-50 shadow-2xl border-l border-royal-gold/40 flex flex-col translate-x-full transition-transform duration-300"
+  >
+    <div class="p-5 bg-red-gradient text-white flex items-center justify-between border-b border-royal-gold/40">
+      <div class="flex items-center gap-2.5">
+        <span class="text-xl">🛒</span>
+        <div>
+          <h3 class="font-royal font-bold text-xl text-royal-goldLight leading-none">Giỏ Hàng Của Bạn</h3>
+          <span class="text-[11px] text-stone-200">Tự động áp dụng Giá Sỉ CK 8% từ 10 hộp 100gr</span>
+        </div>
+      </div>
+      <button id="close-cart-btn" type="button" class="w-9 h-9 rounded-full bg-white/15 hover:bg-white/25 flex items-center justify-center text-white text-lg">
+        ✕
+      </button>
+    </div>
+
+    <!-- Danh Sách Sản Phẩm Trong Giỏ -->
+    <div id="cart-items-container" class="flex-1 overflow-y-auto p-5 space-y-4">
+      <!-- Render bằng JS -->
+    </div>
+
+    <!-- Khu Vực Tổng Tiền & Đặt Hàng Qua Zalo -->
+    <div class="p-5 bg-white dark:bg-royal-deep border-t border-royal-gold/30 space-y-3.5">
+      <div class="space-y-2">
+        <input
+          id="customer-name"
+          type="text"
+          placeholder="Họ và tên Quý khách / Đại lý..."
+          class="w-full px-3.5 py-2.5 rounded-xl border border-royal-gold/40 bg-royal-cream dark:bg-royal-darkCard text-xs sm:text-sm focus:outline-none focus:border-royal-red"
+        />
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <input
+            id="customer-phone"
+            type="tel"
+            placeholder="Số điện thoại nhận hàng..."
+            class="w-full px-3.5 py-2.5 rounded-xl border border-royal-gold/40 bg-royal-cream dark:bg-royal-darkCard text-xs sm:text-sm focus:outline-none focus:border-royal-red"
+          />
+          <input
+            id="customer-address"
+            type="text"
+            placeholder="Địa chỉ giao hàng..."
+            class="w-full px-3.5 py-2.5 rounded-xl border border-royal-gold/40 bg-royal-cream dark:bg-royal-darkCard text-xs sm:text-sm focus:outline-none focus:border-royal-red"
+          />
+        </div>
+      </div>
+
+      <div id="cart-wholesale-banner" class="hidden px-3 py-2 rounded-xl bg-emerald-500/15 border border-emerald-500/40 text-emerald-800 dark:text-emerald-300 text-xs font-bold text-center">
+        <!-- Hiển thị số tiền tiết kiệm sỉ -->
+      </div>
+
+      <div class="flex items-center justify-between pt-1">
+        <div>
+          <span class="font-semibold text-sm block">Tổng thanh toán:</span>
+          <span class="text-[11px] text-stone-500 dark:text-stone-400">(Chưa bao gồm VAT 10%)</span>
+        </div>
+        <span id="cart-total-price" class="font-royal font-extrabold text-2xl text-royal-red dark:text-royal-gold">0 ₫</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+        <button
+          id="checkout-zalo-btn"
+          type="button"
+          class="w-full py-3.5 px-4 rounded-xl bg-gold-gradient text-royal-deep font-extrabold text-sm shadow-gold-sm hover:brightness-105 transition flex items-center justify-center gap-1.5"
+        >
+          <span>💬</span> Đặt Đơn Qua Zalo
+        </button>
+        <button
+          id="copy-order-btn"
+          type="button"
+          class="w-full py-3.5 px-4 rounded-xl bg-red-gradient text-royal-goldLight font-bold text-sm shadow-royal hover:brightness-110 transition flex items-center justify-center gap-1.5"
+        >
+          <span>📋</span> Sao Chép Đơn
+        </button>
+      </div>
+
+      <div class="text-[11px] text-center text-stone-500 dark:text-stone-400">
+        Thanh toán tiền mặt hoặc chuyển khoản ngay khi nhận đủ hàng
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================
+       13. MODAL XEM CHI TIẾT SẢN PHẨM
+  =========================================== -->
+  <div id="product-modal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="relative w-full max-w-2xl bg-royal-cream dark:bg-royal-darkCard rounded-3xl border-2 border-royal-gold shadow-2xl overflow-hidden max-h-[90vh] flex flex-col">
+      <button
+        id="close-product-modal"
+        type="button"
+        class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-black/50 text-white hover:bg-black/70 flex items-center justify-center text-lg"
+      >
+        ✕
+      </button>
+      <div id="product-modal-body" class="overflow-y-auto p-6 sm:p-8">
+        <!-- Nội dung chi tiết sản phẩm render qua JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       14. LIGHTBOX XEM ẢNH PHÓNG TO
+  =========================================== -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="relative max-w-4xl w-full flex flex-col items-center">
+      <button
+        id="close-lightbox"
+        type="button"
+        class="absolute -top-12 right-0 w-10 h-10 rounded-full bg-white/15 hover:bg-white/30 text-white flex items-center justify-center text-xl"
+      >
+        ✕
+      </button>
+      <div class="relative w-full rounded-2xl overflow-hidden border-2 border-royal-gold bg-black flex items-center justify-center">
+        <img id="lightbox-img" src="" alt="Xem ảnh phóng to" class="max-h-[75vh] w-auto object-contain" />
+      </div>
+      <div id="lightbox-caption" class="mt-4 text-center text-sm sm:text-base font-medium text-royal-goldLight"></div>
+      <div class="flex items-center gap-4 mt-4">
+        <button id="lightbox-prev" type="button" class="px-5 py-2 rounded-full bg-white/15 hover:bg-white/25 text-white text-sm font-semibold">← Ảnh trước</button>
+        <button id="lightbox-next" type="button" class="px-5 py-2 rounded-full bg-white/15 hover:bg-white/25 text-white text-sm font-semibold">Ảnh tiếp →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       15. NÚT NỔI GỌI NHANH & ZALO (FLOATING CTA)
+  =========================================== -->
+  <div class="fixed bottom-5 right-5 z-40 flex flex-col gap-3">
+    <a
+      href="tel:0974002626"
+      aria-label="Gọi điện"
+      title="Gọi Hotline: 0974 002 626"
+      class="pulse-ring relative w-14 h-14 rounded-full bg-red-gradient text-royal-goldLight border-2 border-royal-gold shadow-gold flex items-center justify-center text-2xl hover:scale-110 transition"
+    >
+      📞
+    </a>
+    <a
+      href="https://zalo.me/0974002626"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Zalo"
+      title="Nhắn tin Zalo: 0974 002 626"
+      class="w-14 h-14 rounded-full bg-gold-gradient text-royal-deep border-2 border-white shadow-gold flex items-center justify-center font-extrabold text-xs tracking-tight hover:scale-110 transition"
+    >
+      Zalo
+    </a>
+  </div>
+
+  <!-- Toast Thông Báo Sang Trọng (Không dùng alert) -->
+  <div id="toast-container" class="fixed top-24 right-4 z-50 flex flex-col gap-2 max-w-xs w-full pointer-events-none"></div>
+
+  <!-- ==========================================
+       JAVASCRIPT: DỮ LIỆU & TƯƠNG TÁC TOÀN TRANG
+  =========================================== -->
+  <script>
+    /* --------------------------------------------------
+       1. HỆ THỐNG FALLBACK ẢNH THÔNG MINH (HỖ TRỢ CẢ ONLINE & OFFLINE)
+    --------------------------------------------------- */
+    function createRoyalSvgDataUri(title, subtitle) {
+      const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+        <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#7A1215"/>
+            <stop offset="55%" stop-color="#520A0C"/>
+            <stop offset="100%" stop-color="#2D0405"/>
+          </linearGradient>
+          <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#D4AF37"/>
+            <stop offset="50%" stop-color="#F7E9A0"/>
+            <stop offset="100%" stop-color="#AA8215"/>
+          </linearGradient>
+        </defs>
+        <rect width="800" height="600" fill="url(#bg)"/>
+        <rect x="28" y="28" width="744" height="544" rx="24" fill="none" stroke="url(#gold)" stroke-width="3"/>
+        <circle cx="400" cy="230" r="88" fill="none" stroke="url(#gold)" stroke-width="2.5" opacity="0.7"/>
+        <path d="M340 240 C360 190, 440 190, 460 240 C435 268, 365 268, 340 240 Z" fill="url(#gold)"/>
+        <text x="400" y="375" text-anchor="middle" fill="#F7E9A0" font-family="Georgia, serif" font-size="34" font-weight="bold">${title}</text>
+        <text x="400" y="420" text-anchor="middle" fill="#D4AF37" font-family="sans-serif" font-size="20">${subtitle}</text>
+        <text x="400" y="510" text-anchor="middle" fill="#FFFFFF" opacity="0.8" font-family="sans-serif" font-size="16">YẾN SÀO BẢO LINH • KHỞI DỰNG 2017 • 0974 002 626</text>
+      </svg>`;
+      return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+    }
+
+    function handleImgError(imgEl, type) {
+      const localPath = imgEl.getAttribute('data-local');
+      if (localPath && !imgEl.dataset.triedLocal) {
+        imgEl.dataset.triedLocal = 'true';
+        imgEl.src = localPath;
+        return;
+      }
+      if (!imgEl.dataset.triedSvg) {
+        imgEl.dataset.triedSvg = 'true';
+        const titles = {
+          logo: ['YẾN SÀO BẢO LINH', 'Tinh Hoa Khánh Hòa • 2017'],
+          hero: ['TỔ YẾN THƯỢNG HẠNG', '100% Yến Biển Cam Ranh - Khánh Hòa'],
+          founder: ['ANH HÙNG HUVATRA', 'Chủ Sáng Lập Nhà Yến Bảo Linh (2017)'],
+          harvest: ['KHAI THÁC NHÂN ĐẠO', 'Tổ Yến Già Đanh Trên Trần Gỗ Meranti']
+        };
+        const t = titles[type] || ['YẾN SÀO BẢO LINH', 'Tinh Hoa Yến Sào Khánh Hòa'];
+        imgEl.src = createRoyalSvgDataUri(t[0], t[1]);
+      }
+    }
+
+    /* --------------------------------------------------
+       2. DỮ LIỆU SẢN PHẨM CẬP NHẬT THEO BẢNG GIÁ CHIẾT KHẤU CHÍNH THỨC
+       - Yến tinh (100gr): Bán lẻ 4.900.000đ | Bán sỉ (10 <= X < 20, CK 8%): 4.500.000đ
+       - Yến thô (100gr): Bán lẻ 3.000.000đ | Bán sỉ (10 <= X < 20, CK 8%): 2.760.000đ
+    --------------------------------------------------- */
+    const PRODUCTS = [
+      {
+        id: 'tinh-che-vip',
+        name: 'Yến Tinh (Yến Tinh Chế Thượng Hạng)',
+        category: 'tinh-che',
+        badge: '🔥 Chuẩn Bảng Giá Niêm Yết',
+        image: 'https://yensaobaolinh.life/Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        localImage: 'Yến Sào Bảo Linh.jpg',
+        shortDesc: 'Tai yến già đanh thu hoạch trên hệ trần gỗ Meranti, nhặt sạch lông thủ công 100%, đắp sợi phồng dày, nở gấp 4-5 lần khi chưng.',
+        highlights: [
+          '100% tổ yến già thu hoạch từ hệ trần gỗ Meranti nhà yến Cam Ranh của Anh Hùng',
+          'Giá bán lẻ niêm yết: 4.900.000 ₫ / hộp 100gr • Giá bán sỉ (10 ≤ X < 20 hộp, CK 8%): 4.500.000 ₫ / hộp',
+          'Đã làm sạch hoàn toàn lông và tạp chất, tặng kèm đường phèn, táo đỏ, hạt sen & thố sứ'
+        ],
+        prices: {
+          '50g': { price: 2450000, wholesalePrice: 2254000 },
+          '100g': { price: 4900000, wholesalePrice: 4500000 }
+        }
+      },
+      {
+        id: 'yen-tho-nguyen-to',
+        name: 'Yến Thô (Tổ Yến Thô Nguyên Tổ Khánh Hòa)',
+        category: 'yen-tho',
+        badge: '🌿 Nguyên Tổ Trần Gỗ Meranti',
+        image: 'https://yensaobaolinh.life/Khai%20th%C3%A1c%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        localImage: 'Khai thác Yến Sào Bảo Linh.jpg',
+        shortDesc: 'Tổ yến nguyên thủy vừa thu hoạch trên thanh gỗ Meranti đỏ Malaysia, không mùi tạp gỗ, ít lông, thơm tanh nhẹ đặc trưng của biển.',
+        highlights: [
+          'Tuyển chọn các tai yến võng đẹp bám trên gỗ Meranti sạch, bụng mỏng, ít lông tơ dễ nhặt',
+          'Giá bán lẻ niêm yết: 3.000.000 ₫ / hộp 100gr • Giá bán sỉ (10 ≤ X < 20 hộp, CK 8%): 2.760.000 ₫ / hộp',
+          'Tặng nhíp nhặt lông chuyên dụng + bộ nguyên liệu chưng cao cấp'
+        ],
+        prices: {
+          '50g': { price: 1500000, wholesalePrice: 1380000 },
+          '100g': { price: 3000000, wholesalePrice: 2760000 }
+        }
+      },
+      {
+        id: 'yen-rut-long-kho',
+        name: 'Yến Rút Lông Định Hình Xuất Khẩu',
+        category: 'rut-long',
+        badge: '👑 Thượng Phẩm Chọn Lọc',
+        image: 'https://yensaobaolinh.life/Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        localImage: 'Yến Sào Bảo Linh.jpg',
+        shortDesc: 'Chọn từ 10% tổ yến thô đẹp nhất trên trần gỗ Meranti, phun sương rút lông nghệ nhân không ngâm nước, giữ nguyên hình dáng tổ.',
+        highlights: [
+          'Kỹ thuật rút lông khô cao cấp giữ nguyên 100% chân yến và sợi nguyên',
+          'Áp dụng chiết khấu sỉ 8% khi đặt từ 10 hộp 100gr (Chỉ còn 4.784.000 ₫ / hộp)',
+          'Hộp nhung đỏ Hoàng Kim sang trọng kèm túi giấy ép kim'
+        ],
+        prices: {
+          '50g': { price: 2600000, wholesalePrice: 2392000 },
+          '100g': { price: 5200000, wholesalePrice: 4784000 }
+        }
+      },
+      {
+        id: 'hop-qua-hoang-kim',
+        name: 'Hộp Quà Biếu Hoàng Kim Bảo Linh',
+        category: 'qua-bieu',
+        badge: '🎁 Quà Biếu Đẳng Cấp',
+        image: 'https://yensaobaolinh.life/Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        localImage: 'Yến Sào Bảo Linh.jpg',
+        shortDesc: 'Thiết kế hộp quà Hoàng Gia tôn quý gồm các tai Yến Tinh tuyển chọn 100gr, thích hợp biếu tặng Ông Bà, Cha Mẹ, Đối tác và Cấp trên.',
+        highlights: [
+          'Gồm 100gr tai yến tinh thượng hạng + Hộp quà cứng mạ vàng Hoàng Gia',
+          'Chiết khấu doanh nghiệp 8% khi đặt từ 10 hộp quà 100gr (Còn 4.600.000 ₫ / hộp)',
+          'Tặng trọn bộ: Táo đỏ, Kỷ tử, Hạt sen, Đường phèn Quảng Ngãi & Thố sứ'
+        ],
+        prices: {
+          '50g': { price: 2500000, wholesalePrice: 2300000 },
+          '100g': { price: 5000000, wholesalePrice: 4600000 }
+        }
+      },
+      {
+        id: 'chan-yen-gion',
+        name: 'Chân Yến Tinh Chế Giòn Dai',
+        category: 'chan-yen',
+        badge: '💎 Giàu Vi Chất',
+        image: 'https://yensaobaolinh.life/Khai%20th%C3%A1c%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        localImage: 'Khai thác Yến Sào Bảo Linh.jpg',
+        shortDesc: 'Phần nền móng chim yến kết tinh đầu tiên để bám chặt vào thanh gỗ Meranti, độ nở cực cao, ăn giòn sần sật.',
+        highlights: [
+          'Phần già nhất và cô đặc dưỡng chất nhất của tổ yến Cam Ranh trên gỗ Meranti',
+          'Chiết khấu sỉ 8% khi mua từ 10 hộp 100gr (Còn 3.864.000 ₫ / hộp)',
+          'Đã làm sạch thủ công 100%, sấy lạnh tiệt trùng'
+        ],
+        prices: {
+          '50g': { price: 2100000, wholesalePrice: 1932000 },
+          '100g': { price: 4200000, wholesalePrice: 3864000 }
+        }
+      },
+      {
+        id: 'yen-vien-baby',
+        name: 'Yến Viên Tinh Chế Tiện Lợi',
+        category: 'chan-yen',
+        badge: '👶 Tiện Lợi Mỗi Ngày',
+        image: 'https://yensaobaolinh.life/Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        localImage: 'Yến Sào Bảo Linh.jpg',
+        shortDesc: 'Chia sẵn từng viên vừa đúng 1 khẩu phần ăn cho bé và người lớn, dễ dàng chưng cách thủy mỗi ngày mà không cần cân đo.',
+        highlights: [
+          'Định lượng chuẩn khoa học cho từng lần chưng cách thủy',
+          'Chiết khấu sỉ 8% khi mua từ 10 hộp 100gr (Còn 3.588.000 ₫ / hộp)',
+          'Tặng kèm bộ nguyên liệu chưng yến chuẩn vị'
+        ],
+        prices: {
+          '50g': { price: 1950000, wholesalePrice: 1794000 },
+          '100g': { price: 3900000, wholesalePrice: 3588000 }
+        }
+      }
+    ];
+
+    /* --------------------------------------------------
+       3. DỮ LIỆU VIDEO THỰC TẾ & HÌNH ẢNH GALLERY (CHUẨN GỖ MERANTI)
+    --------------------------------------------------- */
+    const VIDEOS = [
+      {
+        title: 'Toàn Cảnh Đàn Chim Yến Làm Tổ Trên Trần Gỗ Meranti',
+        subtitle: 'Hệ thống nhà yến Bảo Linh tại Cam Ranh - Khánh Hòa',
+        duration: 'Thực tế 100%',
+        poster: 'https://yensaobaolinh.life/Khai%20th%C3%A1c%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        localPoster: 'Khai thác Yến Sào Bảo Linh.jpg',
+        desc: 'Ghi hình trực tiếp bên trong nhà yến lắp đặt trần gỗ Meranti đỏ Malaysia của Anh Hùng với nhiệt độ 28°C và độ ẩm 82% lý tưởng.'
+      },
+      {
+        title: 'Anh Hùng Trực Tiếp Kiểm Định & Thu Hoạch Tổ Yến Già',
+        subtitle: 'Nguyên tắc thu hoạch nhân đạo khi chim non đã bay đi',
+        duration: 'Nhà nuôi 2017',
+        poster: 'https://yensaobaolinh.life/Anh%20H%C3%B9ng%20Huvatra%20Ch%E1%BB%A7%20Nh%C3%A0%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20%20Linh.jpg',
+        localPoster: 'Anh Hùng Huvatra Chủ Nhà Yến Sào Bảo  Linh.jpg',
+        desc: 'Từng tai yến trên thanh gỗ Meranti được soi đèn kiểm tra độ già đanh trước khi đưa về phòng sơ chế tinh khiết.'
+      },
+      {
+        title: 'Quy Trình Nhặt Lông Thủ Công & Sấy Lạnh Tiệt Trùng',
+        subtitle: '100% nước lọc tinh khiết RO - Không chất bảo quản',
+        duration: 'Chuẩn VSATTP',
+        poster: 'https://yensaobaolinh.life/Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        localPoster: 'Yến Sào Bảo Linh.jpg',
+        desc: 'Bảo toàn trọn vẹn 18 axit amin và 31 nguyên tố vi lượng quý giá trong từng hộp 100gr.'
+      }
+    ];
+
+    const GALLERY_ITEMS = [
+      {
+        src: 'https://yensaobaolinh.life/Anh%20H%C3%B9ng%20Huvatra%20Ch%E1%BB%A7%20Nh%C3%A0%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20%20Linh.jpg',
+        local: 'Anh Hùng Huvatra Chủ Nhà Yến Sào Bảo  Linh.jpg',
+        tag: 'Nhà Sáng Lập 2017',
+        caption: 'Anh Hùng - Chủ sáng lập hệ thống nhà yến Bảo Linh trực tiếp kiểm tra chất lượng tổ yến trên trần gỗ Meranti tại Cam Ranh.'
+      },
+      {
+        src: 'https://yensaobaolinh.life/Khai%20th%C3%A1c%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        local: 'Khai thác Yến Sào Bảo Linh.jpg',
+        tag: 'Trần Gỗ Meranti Malaysia',
+        caption: 'Những tổ yến già đanh trắng ngà bám chặt trên trần gỗ Meranti không mùi tạp sau khi chim non đã trưởng thành bay đi.'
+      },
+      {
+        src: 'https://yensaobaolinh.life/Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        local: 'Yến Sào Bảo Linh.jpg',
+        tag: 'Thành Phẩm Hộp 100gr',
+        caption: 'Yến sào Bảo Linh đóng hộp Hoàng Gia 100gr sang trọng kèm tem niêm phong bảo chứng chất lượng 200%.'
+      },
+      {
+        src: 'https://yensaobaolinh.life/Logo%20%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        local: 'Logo  Yến Sào Bảo Linh.jpg',
+        tag: 'Dấu Ấn Thương Hiệu',
+        caption: 'Biểu tượng Yến Sào Nha Trang Bảo Linh - Khởi dựng năm 2017 tại Khánh Hòa & Văn phòng giao dịch Vinhomes Central Park TP.HCM.'
+      },
+      {
+        src: 'https://yensaobaolinh.life/Khai%20th%C3%A1c%20Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        local: 'Khai thác Yến Sào Bảo Linh.jpg',
+        tag: 'Tuyển Chọn Khắt Khe',
+        caption: 'Phân loại những tai yến bụng mỏng, sợi dày, ít lông ngay sau khi thu hái từ hệ thống thanh gỗ Meranti nhà nuôi.'
+      },
+      {
+        src: 'https://yensaobaolinh.life/Y%E1%BA%BFn%20S%C3%A0o%20B%E1%BA%A3o%20Linh.jpg',
+        local: 'Yến Sào Bảo Linh.jpg',
+        tag: 'Cung Ứng Sỉ & Lẻ',
+        caption: 'Chính sách chiết khấu 8% hấp dẫn cho khách sỉ đặt từ 10 hộp 100gr, giao hàng trong vòng 7 ngày và thanh toán khi nhận đủ hàng.'
+      }
+    ];
+
+    /* --------------------------------------------------
+       4. TRẠNG THÁI ỨNG DỤNG (STATE)
+    --------------------------------------------------- */
+    let selectedWeights = {}; // Lưu trọng lượng đang chọn (50g / 100g) cho từng sản phẩm
+    PRODUCTS.forEach(p => { selectedWeights[p.id] = '100g'; });
+
+    let cart = [];
+    try {
+      const savedCart = localStorage.getItem('baolinh_cart_v2');
+      if (savedCart) cart = JSON.parse(savedCart);
+    } catch (e) {
+      cart = [];
+    }
+
+    let currentFilter = 'all';
+    let currentLightboxIndex = 0;
+
+    /* --------------------------------------------------
+       5. ĐỊNH DẠNG TIỀN TỆ & THÔNG BÁO TOAST
+    --------------------------------------------------- */
+    function formatVND(amount) {
+      return Math.round(amount).toLocaleString('vi-VN') + ' ₫';
+    }
+
+    function showToast(message, icon = '✨') {
+      const container = document.getElementById('toast-container');
+      const toast = document.createElement('div');
+      toast.className = 'pointer-events-auto bg-red-gradient text-white px-4 py-3 rounded-2xl border border-royal-gold shadow-gold flex items-center gap-3 text-xs sm:text-sm font-semibold transition-all duration-300';
+      toast.innerHTML = `<span class="text-lg">${icon}</span><span>${message}</span>`;
+      container.appendChild(toast);
+      setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transform = 'translateX(20px)';
+        setTimeout(() => toast.remove(), 300);
+      }, 3000);
+    }
+
+    /* --------------------------------------------------
+       6. HIỂN THỊ DANH SÁCH SẢN PHẨM & BỘ LỌC
+    --------------------------------------------------- */
+    function renderProducts() {
+      const grid = document.getElementById('product-grid');
+      const filtered = currentFilter === 'all'
+        ? PRODUCTS
+        : PRODUCTS.filter(p => p.category === currentFilter);
+
+      grid.innerHTML = filtered.map(product => {
+        const weight = selectedWeights[product.id] || '100g';
+        const priceObj = product.prices[weight];
+
+        return `
+          <article class="bg-white dark:bg-royal-darkCard rounded-3xl border border-royal-gold/40 shadow-royal overflow-hidden flex flex-col justify-between group hover:-translate-y-1.5 transition duration-300">
+            <div>
+              <!-- Khung Ảnh Sản Phẩm -->
+              <div class="relative aspect-[4/3] overflow-hidden bg-royal-deep">
+                <img
+                  src="${product.image}"
+                  data-local="${product.localImage}"
+                  alt="${product.name}"
+                  onerror="handleImgError(this, 'hero')"
+                  class="w-full h-full object-cover group-hover:scale-105 transition duration-500 cursor-pointer"
+                  onclick="openProductModal('${product.id}')"
+                />
+                <div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-red-gradient text-royal-goldLight text-xs font-bold border border-royal-gold shadow-sm">
+                  ${product.badge}
+                </div>
+                <div class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-gold-gradient text-royal-deep text-xs font-extrabold shadow-sm">
+                  Sỉ CK 8%
+                </div>
+              </div>
+
+              <!-- Nội Dung Sản Phẩm -->
+              <div class="p-5 sm:p-6 space-y-4">
+                <div>
+                  <h3
+                    onclick="openProductModal('${product.id}')"
+                    class="font-royal font-bold text-xl text-royal-red dark:text-royal-gold hover:underline cursor-pointer leading-snug"
+                  >
+                    ${product.name}
+                  </h3>
+                  <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-1.5 line-clamp-2 leading-relaxed">
+                    ${product.shortDesc}
+                  </p>
+                </div>
+
+                <!-- Tùy Chọn Trọng Lượng 50g / 100g -->
+                <div>
+                  <span class="block text-[11px] font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400 mb-1.5">
+                    Chọn quy cách đóng hộp:
+                  </span>
+                  <div class="grid grid-cols-2 gap-2">
+                    <button
+                      type="button"
+                      onclick="selectProductWeight('${product.id}', '100g')"
+                      class="py-2 px-3 rounded-xl text-xs font-bold border transition ${
+                        weight === '100g'
+                          ? 'bg-red-gradient text-royal-goldLight border-royal-gold shadow-sm'
+                          : 'bg-royal-sand/50 dark:bg-royal-deep/50 text-stone-700 dark:text-stone-300 border-royal-gold/30 hover:border-royal-gold'
+                      }"
+                    >
+                      Hộp 100gr (Chuẩn)
+                    </button>
+                    <button
+                      type="button"
+                      onclick="selectProductWeight('${product.id}', '50g')"
+                      class="py-2 px-3 rounded-xl text-xs font-bold border transition ${
+                        weight === '50g'
+                          ? 'bg-red-gradient text-royal-goldLight border-royal-gold shadow-sm'
+                          : 'bg-royal-sand/50 dark:bg-royal-deep/50 text-stone-700 dark:text-stone-300 border-royal-gold/30 hover:border-royal-gold'
+                      }"
+                    >
+                      Hộp 50gr (Nhỏ)
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Giá Bán Lẻ & Giá Bán Sỉ CK 8% -->
+                <div class="p-3.5 rounded-2xl bg-royal-sand/60 dark:bg-royal-deep/60 border border-royal-gold/30 space-y-1.5">
+                  <div class="flex items-baseline justify-between">
+                    <span class="text-xs font-semibold text-stone-600 dark:text-stone-300">Giá bán lẻ (${weight}):</span>
+                    <span class="font-royal font-extrabold text-xl sm:text-2xl text-royal-red dark:text-royal-gold">
+                      ${formatVND(priceObj.price)}
+                    </span>
+                  </div>
+                  <div class="flex items-center justify-between pt-1 border-t border-royal-gold/20 text-xs">
+                    <span class="text-stone-600 dark:text-stone-300 font-medium">Giá sỉ (10 &le; X &lt; 20 hộp - CK 8%):</span>
+                    <span class="font-extrabold text-emerald-700 dark:text-emerald-400">
+                      ${formatVND(priceObj.wholesalePrice)} / hộp
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cụm Nút Mua Hàng Lẻ & Đặt Sỉ 10 Hộp -->
+            <div class="px-5 sm:px-6 pb-5 sm:pb-6 pt-1 space-y-2">
+              <div class="grid grid-cols-12 gap-2">
+                <button
+                  type="button"
+                  onclick="addToCart('${product.id}')"
+                  class="col-span-8 py-3 px-3 rounded-2xl bg-red-gradient text-royal-goldLight font-bold text-xs sm:text-sm border border-royal-gold/50 shadow-royal hover:brightness-110 transition flex items-center justify-center gap-1.5"
+                >
+                  <span>🛒</span> Mua Lẻ (${weight})
+                </button>
+                <button
+                  type="button"
+                  onclick="openProductModal('${product.id}')"
+                  class="col-span-4 py-3 px-2 rounded-2xl bg-royal-sand dark:bg-royal-deep text-royal-red dark:text-royal-gold font-bold text-xs sm:text-sm border border-royal-gold/40 hover:border-royal-gold transition"
+                >
+                  Chi Tiết
+                </button>
+              </div>
+              <button
+                type="button"
+                onclick="addWholesaleToCart('${product.id}', 10)"
+                class="w-full py-2.5 px-3 rounded-xl bg-gold-gradient text-royal-deep font-extrabold text-xs shadow-sm hover:brightness-105 transition flex items-center justify-center gap-1.5"
+              >
+                <span>⚡</span> Đặt Sỉ 10 Hộp 100gr (Giá CK 8%: ${formatVND(product.prices['100g'].wholesalePrice)}/hộp)
+              </button>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    function selectProductWeight(productId, weight) {
+      selectedWeights[productId] = weight;
+      renderProducts();
+    }
+
+    function filterProductsByCategory(category) {
+      currentFilter = category;
+      document.querySelectorAll('#product-filters .filter-btn').forEach(btn => {
+        if (btn.dataset.filter === category) {
+          btn.className = 'filter-btn active px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition bg-red-gradient text-royal-goldLight border border-royal-gold shadow-royal';
+        } else {
+          btn.className = 'filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition bg-white dark:bg-royal-darkCard text-stone-700 dark:text-stone-200 border border-royal-gold/40 hover:border-royal-gold';
+        }
+      });
+      renderProducts();
+    }
+
+    /* --------------------------------------------------
+       7. MODAL CHI TIẾT SẢN PHẨM
+    --------------------------------------------------- */
+    function openProductModal(productId) {
+      const product = PRODUCTS.find(p => p.id === productId);
+      if (!product) return;
+      const weight = selectedWeights[product.id] || '100g';
+      const priceObj = product.prices[weight];
+
+      const modal = document.getElementById('product-modal');
+      const body = document.getElementById('product-modal-body');
+
+      body.innerHTML = `
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+          <div class="md:col-span-5 rounded-2xl overflow-hidden border border-royal-gold/50 bg-royal-deep aspect-square">
+            <img
+              src="${product.image}"
+              data-local="${product.localImage}"
+              alt="${product.name}"
+              onerror="handleImgError(this, 'hero')"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="md:col-span-7 space-y-4">
+            <span class="inline-block px-3 py-1 rounded-full bg-royal-red/10 dark:bg-royal-gold/20 text-royal-red dark:text-royal-gold text-xs font-bold">
+              ${product.badge} • Trần Gỗ Meranti 2017
+            </span>
+            <h3 class="font-royal font-extrabold text-2xl text-royal-red dark:text-royal-goldLight">
+              ${product.name}
+            </h3>
+            <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed">
+              ${product.shortDesc}
+            </p>
+            <div class="space-y-2 text-xs sm:text-sm">
+              ${product.highlights.map(h => `
+                <div class="flex items-start gap-2">
+                  <span class="text-royal-gold font-bold">✦</span>
+                  <span>${h}</span>
+                </div>
+              `).join('')}
+            </div>
+            <div class="p-4 rounded-2xl bg-royal-sand/70 dark:bg-royal-deep border border-royal-gold/30 space-y-3">
+              <div class="flex items-center justify-between">
+                <div>
+                  <span class="text-xs text-stone-500 dark:text-stone-400">Giá bán lẻ (Hộp ${weight}):</span>
+                  <div class="font-royal font-extrabold text-2xl text-royal-red dark:text-royal-gold">
+                    ${formatVND(priceObj.price)}
+                  </div>
+                </div>
+                <div class="text-right">
+                  <span class="text-xs text-emerald-700 dark:text-emerald-400 font-bold">Giá sỉ CK 8% (&ge;10 hộp):</span>
+                  <div class="font-royal font-extrabold text-xl text-emerald-700 dark:text-emerald-400">
+                    ${formatVND(priceObj.wholesalePrice)}
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+                <button
+                  type="button"
+                  onclick="addToCart('${product.id}'); closeProductModal();"
+                  class="py-3 px-4 rounded-xl bg-red-gradient text-royal-goldLight font-bold text-xs sm:text-sm border border-royal-gold shadow-royal"
+                >
+                  🛒 Thêm 1 Hộp (${weight})
+                </button>
+                <button
+                  type="button"
+                  onclick="addWholesaleToCart('${product.id}', 10); closeProductModal();"
+                  class="py-3 px-4 rounded-xl bg-gold-gradient text-royal-deep font-extrabold text-xs sm:text-sm shadow-gold-sm"
+                >
+                  ⚡ Đặt Sỉ 10 Hộp 100gr (CK 8%)
+                </button>
+              </div>
+            </div>
+            <div class="flex items-center justify-between text-xs text-stone-500 dark:text-stone-400 pt-1">
+              <span>📞 Tư vấn trực tiếp Anh Hùng: <strong>0974 002 626</strong></span>
+              <a href="https://zalo.me/0974002626" target="_blank" rel="noopener noreferrer" class="text-royal-red dark:text-royal-gold font-bold underline">Chat Zalo ↗</a>
+            </div>
+          </div>
+        </div>
+      `;
+
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeProductModal() {
+      const modal = document.getElementById('product-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    /* --------------------------------------------------
+       8. QUẢN LÝ GIỎ HÀNG THÔNG MINH (TỰ ĐỘNG ÁP DỤNG GIÁ SỈ CK 8% KHI >= 10 HỘP)
+    --------------------------------------------------- */
+    function saveCart() {
+      try {
+        localStorage.setItem('baolinh_cart_v2', JSON.stringify(cart));
+      } catch (e) {}
+    }
+
+    function getItemEffectiveUnitPrice(item) {
+      const product = PRODUCTS.find(p => p.id === item.productId);
+      if (!product) return item.retailPrice;
+      const priceInfo = product.prices[item.weight];
+      if (!priceInfo) return item.retailPrice;
+      // Áp dụng giá sỉ CK 8% khi số lượng của dòng sản phẩm >= 10 hộp
+      if (item.qty >= 10) {
+        return priceInfo.wholesalePrice;
+      }
+      return priceInfo.price;
+    }
+
+    function addToCart(productId, forcedWeight = null, addQty = 1) {
+      const product = PRODUCTS.find(p => p.id === productId);
+      if (!product) return;
+      const weight = forcedWeight || selectedWeights[productId] || '100g';
+      const priceInfo = product.prices[weight];
+      const cartKey = `${productId}_${weight}`;
+
+      const existing = cart.find(item => item.key === cartKey);
+      if (existing) {
+        existing.qty += addQty;
+      } else {
+        cart.push({
+          key: cartKey,
+          productId: product.id,
+          name: product.name,
+          weight: weight,
+          retailPrice: priceInfo.price,
+          wholesalePrice: priceInfo.wholesalePrice,
+          image: product.image,
+          localImage: product.localImage,
+          qty: addQty
+        });
+      }
+
+      saveCart();
+      updateCartUI();
+      if (addQty >= 10) {
+        showToast(`Đã thêm ${addQty} hộp "${product.name} (${weight})" với Giá Sỉ CK 8%!`, '⚡');
+      } else {
+        showToast(`Đã thêm "${product.name} (${weight})" vào giỏ hàng!`, '🎁');
+      }
+    }
+
+    function addWholesaleToCart(productId, qty = 10) {
+      addToCart(productId, '100g', qty);
+      openCartDrawer();
+    }
+
+    function changeCartQty(key, delta) {
+      const idx = cart.findIndex(item => item.key === key);
+      if (idx === -1) return;
+      cart[idx].qty += delta;
+      if (cart[idx].qty <= 0) {
+        cart.splice(idx, 1);
+      }
+      saveCart();
+      updateCartUI();
+    }
+
+    function updateCartUI() {
+      const badge = document.getElementById('cart-count-badge');
+      const container = document.getElementById('cart-items-container');
+      const totalEl = document.getElementById('cart-total-price');
+      const wholesaleBanner = document.getElementById('cart-wholesale-banner');
+
+      const totalCount = cart.reduce((sum, item) => sum + item.qty, 0);
+      let totalPrice = 0;
+      let totalWholesaleSaved = 0;
+
+      cart.forEach(item => {
+        const unitPrice = getItemEffectiveUnitPrice(item);
+        totalPrice += unitPrice * item.qty;
+        if (item.qty >= 10) {
+          totalWholesaleSaved += (item.retailPrice - unitPrice) * item.qty;
+        }
+      });
+
+      badge.textContent = totalCount;
+      totalEl.textContent = formatVND(totalPrice);
+
+      if (totalWholesaleSaved > 0) {
+        wholesaleBanner.classList.remove('hidden');
+        wholesaleBanner.textContent = `✨ Đã áp dụng Giá Sỉ Chiết Khấu 8% • Tiết kiệm ${formatVND(totalWholesaleSaved)}`;
+      } else {
+        wholesaleBanner.classList.add('hidden');
+      }
+
+      if (cart.length === 0) {
+        container.innerHTML = `
+          <div class="h-64 flex flex-col items-center justify-center text-center space-y-3 text-stone-500 dark:text-stone-400">
+            <div class="text-5xl">🕊️</div>
+            <div class="font-royal font-bold text-lg text-royal-red dark:text-royal-gold">Giỏ hàng của Quý khách đang trống</div>
+            <p class="text-xs max-w-xs">Hãy chọn những hộp yến sào Khánh Hòa 100gr nguyên chất (Mua từ 10 hộp tự động giảm sỉ 8%).</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = cart.map(item => {
+        const isWholesale = item.qty >= 10;
+        const unitPrice = getItemEffectiveUnitPrice(item);
+        return `
+          <div class="p-3.5 rounded-2xl bg-white dark:bg-royal-deep border border-royal-gold/30 flex items-center gap-3.5 shadow-sm">
+            <img
+              src="${item.image}"
+              data-local="${item.localImage}"
+              alt="${item.name}"
+              onerror="handleImgError(this, 'hero')"
+              class="w-16 h-16 rounded-xl object-cover border border-royal-gold/40 shrink-0"
+            />
+            <div class="flex-1 min-w-0">
+              <h4 class="font-bold text-xs sm:text-sm text-royal-red dark:text-royal-gold truncate">${item.name}</h4>
+              <div class="flex flex-wrap items-center gap-1.5 text-xs text-stone-500 dark:text-stone-400 mt-0.5">
+                <span>Hộp <strong>${item.weight}</strong></span>
+                <span>•</span>
+                <span>Đơn giá: <strong>${formatVND(unitPrice)}</strong></span>
+              </div>
+              ${
+                isWholesale
+                  ? `<span class="inline-block mt-1 px-2 py-0.5 rounded-md bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 text-[10px] font-extrabold">✨ Đã áp dụng Giá Sỉ CK 8%</span>`
+                  : `<span class="inline-block mt-1 text-[10px] text-stone-400">Mua thêm ${10 - item.qty} hộp để nhận giá sỉ CK 8%</span>`
+              }
+              <div class="font-bold text-sm text-stone-800 dark:text-stone-100 mt-1">${formatVND(unitPrice * item.qty)}</div>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <button onclick="changeCartQty('${item.key}', -1)" class="w-7 h-7 rounded-lg bg-royal-sand dark:bg-royal-darkCard font-bold text-sm hover:bg-royal-red hover:text-white transition">-</button>
+              <span class="w-6 text-center text-xs font-bold">${item.qty}</span>
+              <button onclick="changeCartQty('${item.key}', 1)" class="w-7 h-7 rounded-lg bg-royal-sand dark:bg-royal-darkCard font-bold text-sm hover:bg-royal-red hover:text-white transition">+</button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function openCartDrawer() {
+      document.getElementById('cart-overlay').classList.remove('hidden');
+      document.getElementById('cart-drawer').classList.remove('translate-x-full');
+    }
+
+    function closeCartDrawer() {
+      document.getElementById('cart-overlay').classList.add('hidden');
+      document.getElementById('cart-drawer').classList.add('translate-x-full');
+    }
+
+    function buildOrderSummaryText() {
+      const name = document.getElementById('customer-name').value.trim() || 'Khách hàng Website';
+      const phone = document.getElementById('customer-phone').value.trim() || 'Chưa nhập SĐT';
+      const address = document.getElementById('customer-address').value.trim() || 'Chưa nhập địa chỉ';
+
+      let totalPrice = 0;
+      const lines = [
+        '🌟 ĐƠN ĐẶT HÀNG - YẾN SÀO NHA TRANG BẢO LINH (0974 002 626) 🌟',
+        `- Khách hàng: ${name}`,
+        `- Số điện thoại: ${phone}`,
+        `- Địa chỉ nhận: ${address}`,
+        '--------------------------',
+        'CHI TIẾT SẢN PHẨM:'
+      ];
+      cart.forEach((item, idx) => {
+        const unitPrice = getItemEffectiveUnitPrice(item);
+        const lineTotal = unitPrice * item.qty;
+        totalPrice += lineTotal;
+        const priceTag = item.qty >= 10 ? '[Giá Sỉ CK 8%]' : '[Giá Lẻ]';
+        lines.push(`${idx + 1}. ${item.name} (${item.weight}) ${priceTag}: ${item.qty} hộp x ${formatVND(unitPrice)} = ${formatVND(lineTotal)}`);
+      });
+      lines.push('--------------------------');
+      lines.push(`TỔNG THANH TOÁN (Chưa VAT 10%): ${formatVND(totalPrice)}`);
+      lines.push('(Thanh toán tiền mặt hoặc chuyển khoản ngay khi nhận đủ hàng)');
+      return lines.join('\n');
+    }
+
+    function copyTextToClipboard(text) {
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+      try {
+        document.execCommand('copy');
+      } catch (err) {}
+      document.body.removeChild(textarea);
+    }
+
+    /* --------------------------------------------------
+       9. CÔNG CỤ TÍNH NHẨM ĐƠN HÀNG SỈ & CHIẾT KHẤU 8% (#bang-gia-si)
+    --------------------------------------------------- */
+    function updateWholesaleCalculator() {
+      const qtyTinhInput = document.getElementById('ws-qty-tinh');
+      const qtyThoInput = document.getElementById('ws-qty-tho');
+      const includeVat = document.getElementById('ws-include-vat').checked;
+
+      const qtyTinh = Math.max(0, parseInt(qtyTinhInput.value, 10) || 0);
+      const qtyTho = Math.max(0, parseInt(qtyThoInput.value, 10) || 0);
+      const totalBoxes = qtyTinh + qtyTho;
+
+      // Áp dụng giá sỉ CK 8% khi số lượng hộp của loại đó >= 10 hoặc tổng số hộp đặt sỉ >= 10
+      const isWholesaleTinh = qtyTinh >= 10 || totalBoxes >= 10;
+      const isWholesaleTho = qtyTho >= 10 || totalBoxes >= 10;
+
+      const unitTinh = isWholesaleTinh ? 4500000 : 4900000;
+      const unitTho = isWholesaleTho ? 2760000 : 3000000;
+
+      document.getElementById('ws-unit-tinh').textContent = isWholesaleTinh
+        ? 'Đơn giá sỉ (CK 8%): 4.500.000 ₫/hộp'
+        : 'Đơn giá lẻ: 4.900.000 ₫/hộp';
+      document.getElementById('ws-unit-tho').textContent = isWholesaleTho
+        ? 'Đơn giá sỉ (CK 8%): 2.760.000 ₫/hộp'
+        : 'Đơn giá lẻ: 3.000.000 ₫/hộp';
+
+      const retailTotal = qtyTinh * 4900000 + qtyTho * 3000000;
+      const subtotal = qtyTinh * unitTinh + qtyTho * unitTho;
+      const discountSaved = retailTotal - subtotal;
+      const vatAmount = includeVat ? subtotal * 0.1 : 0;
+      const finalTotal = subtotal + vatAmount;
+
+      const summaryEl = document.getElementById('ws-calc-summary');
+      summaryEl.innerHTML = `
+        <div class="flex items-center justify-between">
+          <span class="text-stone-300">Tổng số lượng đặt:</span>
+          <strong class="text-white">${totalBoxes} hộp (100gr/hộp)</strong>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-stone-300">Tổng tính theo giá lẻ:</span>
+          <span class="text-stone-300 line-through">${formatVND(retailTotal)}</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-royal-goldLight font-semibold">Chiết khấu sỉ (CK 8%):</span>
+          <strong class="text-emerald-300">-${formatVND(discountSaved)}</strong>
+        </div>
+        ${
+          includeVat
+            ? `<div class="flex items-center justify-between">
+                <span class="text-stone-300">Thuế VAT (10%):</span>
+                <span class="text-stone-200">+${formatVND(vatAmount)}</span>
+              </div>`
+            : ''
+        }
+        <div class="flex items-center justify-between pt-2 border-t border-royal-gold/30 text-sm sm:text-base">
+          <span class="font-bold text-royal-goldLight">TỔNG THANH TOÁN:</span>
+          <span class="font-royal font-extrabold text-xl sm:text-2xl text-royal-gold">${formatVND(finalTotal)}</span>
+        </div>
+      `;
+    }
+
+    /* --------------------------------------------------
+       10. HIỂN THỊ VIDEO TOUR & GALLERY LIGHTBOX
+    --------------------------------------------------- */
+    function renderVideosAndGallery() {
+      const videoGrid = document.getElementById('video-grid');
+      videoGrid.innerHTML = VIDEOS.map((v) => `
+        <div class="bg-black/30 rounded-3xl p-4 border border-royal-gold/40 backdrop-blur-xs flex flex-col justify-between space-y-4 hover:border-royal-gold transition">
+          <div
+            onclick="openLightboxDirect('${v.poster}', '${v.title} - ${v.desc}')"
+            class="relative rounded-2xl overflow-hidden aspect-video bg-royal-deep cursor-pointer group"
+          >
+            <img
+              src="${v.poster}"
+              data-local="${v.localPoster}"
+              alt="${v.title}"
+              onerror="handleImgError(this, 'harvest')"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+            />
+            <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+              <div class="w-14 h-14 rounded-full bg-gold-gradient text-royal-deep flex items-center justify-center text-xl font-bold shadow-gold group-hover:scale-110 transition">
+                ▶
+              </div>
+            </div>
+            <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-royal-red/90 border border-royal-gold/50 text-royal-goldLight text-xs font-bold">
+              ${v.duration}
+            </span>
+          </div>
+          <div class="space-y-1.5 px-1">
+            <div class="text-xs font-semibold text-royal-gold">${v.subtitle}</div>
+            <h4 class="font-royal font-bold text-lg text-white leading-snug">${v.title}</h4>
+            <p class="text-xs text-stone-300 leading-relaxed">${v.desc}</p>
+          </div>
+        </div>
+      `).join('');
+
+      const galleryGrid = document.getElementById('gallery-grid');
+      galleryGrid.innerHTML = GALLERY_ITEMS.map((item, idx) => `
+        <div
+          onclick="openLightbox(${idx})"
+          class="group relative rounded-3xl overflow-hidden border-2 border-royal-gold/40 bg-royal-deep aspect-[4/3] shadow-royal cursor-pointer"
+        >
+          <img
+            src="${item.src}"
+            data-local="${item.local}"
+            alt="${item.caption}"
+            onerror="handleImgError(this, 'harvest')"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent flex flex-col justify-end p-5">
+            <span class="inline-block w-fit px-3 py-0.5 rounded-full bg-gold-gradient text-royal-deep text-[11px] font-extrabold mb-1.5">
+              ${item.tag}
+            </span>
+            <p class="text-xs sm:text-sm text-white font-medium leading-snug">
+              ${item.caption}
+            </p>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function openLightbox(idx) {
+      currentLightboxIndex = idx;
+      const item = GALLERY_ITEMS[currentLightboxIndex];
+      const modal = document.getElementById('lightbox-modal');
+      const img = document.getElementById('lightbox-img');
+      const caption = document.getElementById('lightbox-caption');
+
+      img.removeAttribute('data-tried-local');
+      img.removeAttribute('data-tried-svg');
+      img.setAttribute('data-local', item.local);
+      img.onerror = function () { handleImgError(this, 'harvest'); };
+      img.src = item.src;
+      caption.textContent = item.caption;
+
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function openLightboxDirect(src, captionText) {
+      const modal = document.getElementById('lightbox-modal');
+      const img = document.getElementById('lightbox-img');
+      const caption = document.getElementById('lightbox-caption');
+      img.src = src;
+      caption.textContent = captionText;
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeLightbox() {
+      const modal = document.getElementById('lightbox-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    /* --------------------------------------------------
+       11. BỘ TÍNH TOÁN LIỀU LƯỢNG YẾN DÙNG KHOA HỌC
+    --------------------------------------------------- */
+    const DOSAGE_RULES = {
+      'adult': {
+        title: 'Người lớn / Người làm việc căng thẳng',
+        gramPerServing: 4,
+        timesPerWeek: 3,
+        note: 'Giúp phục hồi năng lượng trí não, ngủ sâu giấc, tăng cường đề kháng và làm đẹp da.',
+        recommendedProductId: 'tinh-che-vip'
+      },
+      'elderly': {
+        title: 'Người cao tuổi / Người mới ốm dậy',
+        gramPerServing: 4.5,
+        timesPerWeek: 3.5,
+        note: 'Bồi bổ khí huyết, tái tạo tế bào nhanh sau phẫu thuật hoặc ốm dậy, tốt cho tim mạch và xương khớp.',
+        recommendedProductId: 'yen-rut-long-kho'
+      },
+      'child-small': {
+        title: 'Trẻ nhỏ từ 1 - 3 tuổi',
+        gramPerServing: 1.5,
+        timesPerWeek: 2.5,
+        note: 'Hỗ trợ hệ hô hấp, kích thích tiêu hóa ăn ngon miệng và tăng cường miễn dịch tự nhiên.',
+        recommendedProductId: 'yen-vien-baby'
+      },
+      'child-big': {
+        title: 'Trẻ em từ 4 - 10 tuổi',
+        gramPerServing: 2.5,
+        timesPerWeek: 3,
+        note: 'Phát triển chiều cao, trí não minh mẫn mùa thi cử và hạn chế ốm vặt khi thay đổi thời tiết.',
+        recommendedProductId: 'yen-vien-baby'
+      },
+      'pregnant': {
+        title: 'Phụ nữ mang thai (từ tháng thứ 4)',
+        gramPerServing: 4.5,
+        timesPerWeek: 3,
+        note: 'Cung cấp 18 axit amin giúp thai nhi phát triển toàn diện, mẹ bầu khỏe mạnh, giảm mệt mỏi và rạn da.',
+        recommendedProductId: 'tinh-che-vip'
+      }
+    };
+
+    function updateDosageCalculator() {
+      const userType = document.getElementById('calc-user').value;
+      const weeks = parseInt(document.getElementById('calc-weeks').value, 10) || 4;
+      const rule = DOSAGE_RULES[userType] || DOSAGE_RULES['adult'];
+
+      const totalGrams = Math.round(rule.gramPerServing * rule.timesPerWeek * weeks);
+      const suggestedWeight = totalGrams <= 55 ? '50g' : '100g';
+      const boxCount = totalGrams > 110 ? Math.ceil(totalGrams / 100) + ' Hộp 100gr' : `1 Hộp ${suggestedWeight}`;
+
+      const resultEl = document.getElementById('calc-result');
+      resultEl.innerHTML = `
+        <div class="grid grid-cols-3 gap-2.5 text-center">
+          <div class="bg-white/10 rounded-xl p-3 border border-royal-gold/30">
+            <div class="text-[11px] text-royal-goldLight">Liều lượng / lần</div>
+            <div class="font-royal font-extrabold text-xl sm:text-2xl text-royal-gold mt-0.5">${rule.gramPerServing}g</div>
+            <div class="text-[11px] text-stone-300">Yến khô / 1 chén</div>
+          </div>
+          <div class="bg-white/10 rounded-xl p-3 border border-royal-gold/30">
+            <div class="text-[11px] text-royal-goldLight">Tần suất dùng</div>
+            <div class="font-royal font-extrabold text-xl sm:text-2xl text-royal-gold mt-0.5">~${rule.timesPerWeek} lần</div>
+            <div class="text-[11px] text-stone-300">Mỗi tuần (Cách ngày)</div>
+          </div>
+          <div class="bg-white/10 rounded-xl p-3 border border-royal-gold/30">
+            <div class="text-[11px] text-royal-goldLight">Tổng cần chuẩn bị</div>
+            <div class="font-royal font-extrabold text-xl sm:text-2xl text-royal-gold mt-0.5">~${totalGrams}g</div>
+            <div class="text-[11px] text-stone-300">Trong ${weeks} tuần</div>
+          </div>
+        </div>
+
+        <div class="text-xs sm:text-sm text-stone-100 leading-relaxed bg-white/5 p-3.5 rounded-xl border border-royal-gold/20">
+          <strong class="text-royal-goldLight">💡 Khuyến nghị chuyên gia:</strong> ${rule.note}<br />
+          <span class="text-royal-gold font-semibold">→ Gói tiết kiệm phù hợp: Chuẩn bị ${boxCount}.</span>
+        </div>
+
+        <div class="flex flex-wrap gap-2.5 pt-1">
+          <button
+            type="button"
+            onclick="addToCart('${rule.recommendedProductId}', '${suggestedWeight}'); openCartDrawer();"
+            class="flex-1 py-3 px-4 rounded-xl bg-gold-gradient text-royal-deep font-extrabold text-xs sm:text-sm shadow-gold-sm hover:brightness-105 transition"
+          >
+            🛒 Chọn Gói ${suggestedWeight} Phù Hợp Ngay
+          </button>
+          <a
+            href="https://zalo.me/0974002626"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="py-3 px-4 rounded-xl bg-white/15 hover:bg-white/25 text-white font-bold text-xs sm:text-sm border border-royal-gold/40 transition"
+          >
+            💬 Nhờ Anh Hùng Tư Vấn
+          </a>
+        </div>
+      `;
+    }
+
+    /* --------------------------------------------------
+       12. KHỞI TẠO SỰ KIỆN KHI TRANG TẢI XONG
+    --------------------------------------------------- */
+    window.addEventListener('DOMContentLoaded', () => {
+      // Khởi tạo giao diện Sáng / Tối
+      const themeToggleBtn = document.getElementById('theme-toggle');
+      const themeIcon = document.getElementById('theme-icon');
+      const savedTheme = localStorage.getItem('baolinh_theme');
+      if (savedTheme === 'dark') {
+        document.documentElement.classList.add('dark');
+        themeIcon.textContent = '☀️';
+      }
+
+      themeToggleBtn.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.toggle('dark');
+        themeIcon.textContent = isDark ? '☀️' : '🌙';
+        try {
+          localStorage.setItem('baolinh_theme', isDark ? 'dark' : 'light');
+        } catch (e) {}
+      });
+
+      // Menu di động
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+      document.querySelectorAll('.mobile-nav-link').forEach(link => {
+        link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+      });
+
+      // Render Sản phẩm, Video, Gallery, Giỏ hàng, Bộ tính toán
+      renderProducts();
+      renderVideosAndGallery();
+      updateCartUI();
+      updateDosageCalculator();
+      updateWholesaleCalculator();
+
+      // Sự kiện lọc danh mục sản phẩm
+      document.querySelectorAll('#product-filters .filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterProductsByCategory(btn.dataset.filter);
+        });
+      });
+
+      // Sự kiện Bộ tính toán đơn hàng sỉ
+      document.getElementById('ws-qty-tinh').addEventListener('input', updateWholesaleCalculator);
+      document.getElementById('ws-qty-tho').addEventListener('input', updateWholesaleCalculator);
+      document.getElementById('ws-include-vat').addEventListener('change', updateWholesaleCalculator);
+
+      document.getElementById('ws-add-cart-btn').addEventListener('click', () => {
+        const qtyTinh = Math.max(0, parseInt(document.getElementById('ws-qty-tinh').value, 10) || 0);
+        const qtyTho = Math.max(0, parseInt(document.getElementById('ws-qty-tho').value, 10) || 0);
+        if (qtyTinh === 0 && qtyTho === 0) {
+          showToast('Vui lòng nhập số lượng hộp Yến tinh hoặc Yến thô cần đặt!', '⚠️');
+          return;
+        }
+        if (qtyTinh > 0) addToCart('tinh-che-vip', '100g', qtyTinh);
+        if (qtyTho > 0) addToCart('yen-tho-nguyen-to', '100g', qtyTho);
+        openCartDrawer();
+      });
+
+      document.getElementById('ws-zalo-quote-btn').addEventListener('click', () => {
+        const qtyTinh = Math.max(0, parseInt(document.getElementById('ws-qty-tinh').value, 10) || 0);
+        const qtyTho = Math.max(0, parseInt(document.getElementById('ws-qty-tho').value, 10) || 0);
+        const includeVat = document.getElementById('ws-include-vat').checked;
+        const msg = `YÊU CẦU BÁO GIÁ SỈ - YẾN SÀO BẢO LINH\n- Yến tinh (100gr): ${qtyTinh} hộp\n- Yến thô (100gr): ${qtyTho} hộp\n- Xuất VAT 10%: ${includeVat ? 'Có' : 'Không'}\nNhờ Anh Hùng (0974 002 626) xác nhận đơn giá chiết khấu!`;
+        copyTextToClipboard(msg);
+        showToast('Đã sao chép yêu cầu báo giá! Đang mở Zalo Anh Hùng (0974 002 626)...', '💬');
+        setTimeout(() => {
+          window.open('https://zalo.me/0974002626', '_blank', 'noopener,noreferrer');
+        }, 700);
+      });
+
+      // Sự kiện Bộ tính toán liều lượng
+      document.getElementById('calc-user').addEventListener('change', updateDosageCalculator);
+      document.getElementById('calc-weeks').addEventListener('change', updateDosageCalculator);
+
+      // Sự kiện Giỏ hàng Drawer
+      document.getElementById('open-cart-btn').addEventListener('click', openCartDrawer);
+      document.getElementById('close-cart-btn').addEventListener('click', closeCartDrawer);
+      document.getElementById('cart-overlay').addEventListener('click', closeCartDrawer);
+
+      // Sự kiện Đặt đơn qua Zalo & Sao chép đơn
+      document.getElementById('checkout-zalo-btn').addEventListener('click', () => {
+        if (cart.length === 0) {
+          showToast('Quý khách vui lòng chọn sản phẩm vào giỏ hàng trước!', '⚠️');
+          return;
+        }
+        const summary = buildOrderSummaryText();
+        copyTextToClipboard(summary);
+        showToast('Đã sao chép thông tin đơn hàng! Đang mở Zalo Anh Hùng (0974 002 626)...', '💬');
+        setTimeout(() => {
+          window.open('https://zalo.me/0974002626', '_blank', 'noopener,noreferrer');
+        }, 700);
+      });
+
+      document.getElementById('copy-order-btn').addEventListener('click', () => {
+        if (cart.length === 0) {
+          showToast('Giỏ hàng đang trống, hãy chọn ít nhất 1 sản phẩm!', '⚠️');
+          return;
+        }
+        const summary = buildOrderSummaryText();
+        copyTextToClipboard(summary);
+        showToast('Đã sao chép chi tiết đơn hàng vào bộ nhớ tạm!', '📋');
+      });
+
+      // Sự kiện đóng Modal sản phẩm & Lightbox
+      document.getElementById('close-product-modal').addEventListener('click', closeProductModal);
+      document.getElementById('product-modal').addEventListener('click', (e) => {
+        if (e.target.id === 'product-modal') closeProductModal();
+      });
+
+      document.getElementById('close-lightbox').addEventListener('click', closeLightbox);
+      document.getElementById('lightbox-modal').addEventListener('click', (e) => {
+        if (e.target.id === 'lightbox-modal') closeLightbox();
+      });
+      document.getElementById('lightbox-prev').addEventListener('click', () => {
+        currentLightboxIndex = (currentLightboxIndex - 1 + GALLERY_ITEMS.length) % GALLERY_ITEMS.length;
+        openLightbox(currentLightboxIndex);
+      });
+      document.getElementById('lightbox-next').addEventListener('click', () => {
+        currentLightboxIndex = (currentLightboxIndex + 1) % GALLERY_ITEMS.length;
+        openLightbox(currentLightboxIndex);
+      });
+
+      // Hỗ trợ phím Escape
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          closeProductModal();
+          closeLightbox();
+          closeCartDrawer();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
